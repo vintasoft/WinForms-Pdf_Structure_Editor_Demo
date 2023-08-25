@@ -22,7 +22,6 @@ using DemosCommonCode.Imaging.ColorManagement;
 using DemosCommonCode.Pdf;
 using DemosCommonCode.Pdf.Security;
 using Vintasoft.Imaging.Pdf.Processing;
-using System.Globalization;
 
 namespace PdfStructureEditorDemo
 {
