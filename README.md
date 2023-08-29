@@ -29,7 +29,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-pdf-structure-editor-demo.png" alt="VintaSoft PDF Structure Editor Demo">
+<img src="vintasoft-pdf-structure-editor-demo.png" title="VintaSoft PDF Structure Editor Demo">
 
 
 ## Usage
