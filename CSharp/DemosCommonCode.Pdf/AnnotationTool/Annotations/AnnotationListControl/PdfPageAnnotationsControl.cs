@@ -86,6 +86,8 @@ namespace DemosCommonCode.Pdf
             GridLines = true;
             FullRowSelect = true;
             HeaderStyle = ColumnHeaderStyle.Nonclickable;
+
+            Disposed += PdfPageAnnotationsControl_Disposed;
         }
 
         #endregion
@@ -368,6 +370,17 @@ namespace DemosCommonCode.Pdf
             item.SubItems.Add(annotation.Rectangle.ToString());
             return item;
         }
+
+        /// <summary>
+        /// Handles the Disposed event of the PdfPageAnnotationsControl control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
+        private void PdfPageAnnotationsControl_Disposed(object sender, System.EventArgs e)
+        {
+            AnnotationList = null;
+        }
+
 
         #endregion
 
