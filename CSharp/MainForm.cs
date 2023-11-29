@@ -83,7 +83,7 @@ namespace PdfStructureEditorDemo
             Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
 
             InitializeComponent();
-            
+
             Jbig2AssemblyLoader.Load();
             Jpeg2000AssemblyLoader.Load();
 

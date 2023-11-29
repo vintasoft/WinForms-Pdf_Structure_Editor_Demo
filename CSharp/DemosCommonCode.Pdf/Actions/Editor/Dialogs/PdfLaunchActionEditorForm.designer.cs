@@ -36,11 +36,11 @@ namespace DemosCommonCode.Pdf
             // 
             // commandLineTextBox
             // 
-            this.commandLineTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.commandLineTextBox.Location = new System.Drawing.Point(95, 12);
+            this.commandLineTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.commandLineTextBox.Location = new System.Drawing.Point(12, 31);
             this.commandLineTextBox.Name = "commandLineTextBox";
-            this.commandLineTextBox.Size = new System.Drawing.Size(287, 20);
+            this.commandLineTextBox.Size = new System.Drawing.Size(302, 20);
             this.commandLineTextBox.TabIndex = 3;
             this.commandLineTextBox.TextChanged += new System.EventHandler(this.commandLineTextBox_TextChanged);
             // 
@@ -57,7 +57,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.okButton.Location = new System.Drawing.Point(226, 43);
+            this.okButton.Location = new System.Drawing.Point(158, 64);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 4;
@@ -69,7 +69,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(307, 43);
+            this.buttonCancel.Location = new System.Drawing.Point(239, 64);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 5;
@@ -81,7 +81,7 @@ namespace DemosCommonCode.Pdf
             this.AcceptButton = this.okButton;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(394, 76);
+            this.ClientSize = new System.Drawing.Size(326, 97);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.commandLineTextBox);

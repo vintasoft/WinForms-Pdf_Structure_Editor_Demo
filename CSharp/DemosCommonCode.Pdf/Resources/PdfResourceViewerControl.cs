@@ -235,8 +235,8 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Releases all resources used by this <see cref="PdfResourceViewerControl"/> object.
         /// </summary>
-        /// <param name="disposing"><b>true</b> to release both managed and unmanaged
-        /// resources; <b>false</b> to release only unmanaged resources.</param>
+        /// <param name="disposing">A value indicating whether to release both managed and unmanaged resources.
+        /// <b>True</b> to release both managed and unmanaged resources; <b>false</b> to release only unmanaged resources.</param>
         protected override void Dispose(bool disposing)
         {
             if (!IsDesignMode && _editorTool != null)

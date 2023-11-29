@@ -39,20 +39,19 @@ namespace DemosCommonCode.Pdf
             this.panel3 = new System.Windows.Forms.Panel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cellSizeNumericUpDown)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.cellSizeNumericUpDown);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.fontComboBox);
+            this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -61,9 +60,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(535, 13);
+            this.label2.Location = new System.Drawing.Point(544, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 3;
@@ -71,13 +70,13 @@ namespace DemosCommonCode.Pdf
             // 
             // cellSizeNumericUpDown
             // 
-            this.cellSizeNumericUpDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cellSizeNumericUpDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.cellSizeNumericUpDown.Increment = new decimal(new int[] {
             10,
             0,
             0,
             0});
-            this.cellSizeNumericUpDown.Location = new System.Drawing.Point(588, 9);
+            this.cellSizeNumericUpDown.Location = new System.Drawing.Point(597, 8);
             this.cellSizeNumericUpDown.Maximum = new decimal(new int[] {
             512,
             0,
@@ -100,8 +99,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 11);
+            this.label1.Location = new System.Drawing.Point(3, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 1;
@@ -109,13 +109,12 @@ namespace DemosCommonCode.Pdf
             // 
             // fontComboBox
             // 
-            this.fontComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.fontComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.fontComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fontComboBox.FormattingEnabled = true;
-            this.fontComboBox.Location = new System.Drawing.Point(49, 8);
+            this.fontComboBox.Location = new System.Drawing.Point(37, 8);
             this.fontComboBox.Name = "fontComboBox";
-            this.fontComboBox.Size = new System.Drawing.Size(480, 21);
+            this.fontComboBox.Size = new System.Drawing.Size(501, 21);
             this.fontComboBox.TabIndex = 0;
             this.fontComboBox.SelectedIndexChanged += new System.EventHandler(this.fontComboBox_SelectedIndexChanged);
             // 
@@ -151,8 +150,8 @@ namespace DemosCommonCode.Pdf
             this.pdfFontViewerControl.Size = new System.Drawing.Size(649, 165);
             this.pdfFontViewerControl.TabIndex = 0;
             this.pdfFontViewerControl.Text = "pdfFontViewerControl1";
-            this.pdfFontViewerControl.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pdfFontViewerControl1_MouseMove);
             this.pdfFontViewerControl.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.pdfFontViewerControl_MouseDoubleClick);
+            this.pdfFontViewerControl.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pdfFontViewerControl1_MouseMove);
             // 
             // panel3
             // 
@@ -178,6 +177,26 @@ namespace DemosCommonCode.Pdf
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(0, 17);
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.fontComboBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.cellSizeNumericUpDown, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(649, 37);
+            this.tableLayoutPanel1.TabIndex = 4;
+            // 
             // ViewDocumentFontsForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -190,7 +209,6 @@ namespace DemosCommonCode.Pdf
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Document Fonts";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cellSizeNumericUpDown)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -198,6 +216,8 @@ namespace DemosCommonCode.Pdf
             this.panel3.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -215,5 +235,6 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown cellSizeNumericUpDown;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

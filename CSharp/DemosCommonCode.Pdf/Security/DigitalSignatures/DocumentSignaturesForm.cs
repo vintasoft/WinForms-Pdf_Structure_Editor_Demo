@@ -1,4 +1,8 @@
-﻿using System;
+﻿#if REMOVE_PDF_PLUGIN
+#error Remove DocumentSignaturesForm from project.
+#endif
+
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;

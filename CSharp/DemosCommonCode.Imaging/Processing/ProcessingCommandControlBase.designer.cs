@@ -69,10 +69,10 @@ namespace DemosCommonCode.Imaging
             this.processingTabPage.Controls.Add(this.showResultsAfretExecuteCheckBox);
             this.processingTabPage.Controls.Add(this.splitContainer1);
             this.processingTabPage.Controls.Add(this.executeButton);
-            this.processingTabPage.Location = new System.Drawing.Point(4, 24);
+            this.processingTabPage.Location = new System.Drawing.Point(4, 22);
             this.processingTabPage.Name = "processingTabPage";
             this.processingTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.processingTabPage.Size = new System.Drawing.Size(540, 471);
+            this.processingTabPage.Size = new System.Drawing.Size(540, 473);
             this.processingTabPage.TabIndex = 0;
             this.processingTabPage.Text = "Processing";
             this.processingTabPage.UseVisualStyleBackColor = true;
@@ -81,9 +81,9 @@ namespace DemosCommonCode.Imaging
             // 
             this.viewProcessingTreeStructureCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.viewProcessingTreeStructureCheckBox.AutoSize = true;
-            this.viewProcessingTreeStructureCheckBox.Location = new System.Drawing.Point(8, 442);
+            this.viewProcessingTreeStructureCheckBox.Location = new System.Drawing.Point(8, 427);
             this.viewProcessingTreeStructureCheckBox.Name = "viewProcessingTreeStructureCheckBox";
-            this.viewProcessingTreeStructureCheckBox.Size = new System.Drawing.Size(186, 19);
+            this.viewProcessingTreeStructureCheckBox.Size = new System.Drawing.Size(175, 17);
             this.viewProcessingTreeStructureCheckBox.TabIndex = 6;
             this.viewProcessingTreeStructureCheckBox.Text = "View Processing Tree Structure";
             this.viewProcessingTreeStructureCheckBox.UseVisualStyleBackColor = true;
@@ -95,9 +95,9 @@ namespace DemosCommonCode.Imaging
             this.showResultsAfretExecuteCheckBox.AutoSize = true;
             this.showResultsAfretExecuteCheckBox.Checked = true;
             this.showResultsAfretExecuteCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.showResultsAfretExecuteCheckBox.Location = new System.Drawing.Point(200, 442);
+            this.showResultsAfretExecuteCheckBox.Location = new System.Drawing.Point(8, 450);
             this.showResultsAfretExecuteCheckBox.Name = "showResultsAfretExecuteCheckBox";
-            this.showResultsAfretExecuteCheckBox.Size = new System.Drawing.Size(163, 19);
+            this.showResultsAfretExecuteCheckBox.Size = new System.Drawing.Size(150, 17);
             this.showResultsAfretExecuteCheckBox.TabIndex = 5;
             this.showResultsAfretExecuteCheckBox.Text = "Open results after execute";
             this.showResultsAfretExecuteCheckBox.UseVisualStyleBackColor = true;
@@ -118,7 +118,7 @@ namespace DemosCommonCode.Imaging
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.propertyGridGroupBox);
-            this.splitContainer1.Size = new System.Drawing.Size(524, 430);
+            this.splitContainer1.Size = new System.Drawing.Size(524, 415);
             this.splitContainer1.SplitterDistance = 249;
             this.splitContainer1.TabIndex = 4;
             // 
@@ -134,7 +134,7 @@ namespace DemosCommonCode.Imaging
             this.processingCommandViewer.ProcessingCommands = null;
             this.processingCommandViewer.SelectedImageIndex = 0;
             this.processingCommandViewer.SelectedProcessingCommand = null;
-            this.processingCommandViewer.Size = new System.Drawing.Size(249, 430);
+            this.processingCommandViewer.Size = new System.Drawing.Size(249, 415);
             this.processingCommandViewer.TabIndex = 0;
             this.processingCommandViewer.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.processingCommandViewer_AfterSelect);
             // 
@@ -144,23 +144,23 @@ namespace DemosCommonCode.Imaging
             this.propertyGridGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.propertyGridGroupBox.Location = new System.Drawing.Point(0, 0);
             this.propertyGridGroupBox.Name = "propertyGridGroupBox";
-            this.propertyGridGroupBox.Size = new System.Drawing.Size(271, 430);
+            this.propertyGridGroupBox.Size = new System.Drawing.Size(271, 415);
             this.propertyGridGroupBox.TabIndex = 4;
             this.propertyGridGroupBox.TabStop = false;
             // 
             // propertyGrid
             // 
             this.propertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.propertyGrid.Location = new System.Drawing.Point(3, 19);
+            this.propertyGrid.Location = new System.Drawing.Point(3, 16);
             this.propertyGrid.Name = "propertyGrid";
-            this.propertyGrid.Size = new System.Drawing.Size(265, 408);
+            this.propertyGrid.Size = new System.Drawing.Size(265, 396);
             this.propertyGrid.TabIndex = 3;
             this.propertyGrid.PropertyValueChanged += new System.Windows.Forms.PropertyValueChangedEventHandler(this.propertyGrid_PropertyValueChanged);
             // 
             // executeButton
             // 
             this.executeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.executeButton.Location = new System.Drawing.Point(457, 442);
+            this.executeButton.Location = new System.Drawing.Point(457, 444);
             this.executeButton.Name = "executeButton";
             this.executeButton.Size = new System.Drawing.Size(75, 23);
             this.executeButton.TabIndex = 2;
@@ -171,10 +171,10 @@ namespace DemosCommonCode.Imaging
             // resultTabPage
             // 
             this.resultTabPage.Controls.Add(this.resultGroupBox);
-            this.resultTabPage.Location = new System.Drawing.Point(4, 24);
+            this.resultTabPage.Location = new System.Drawing.Point(4, 22);
             this.resultTabPage.Name = "resultTabPage";
             this.resultTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.resultTabPage.Size = new System.Drawing.Size(540, 471);
+            this.resultTabPage.Size = new System.Drawing.Size(540, 473);
             this.resultTabPage.TabIndex = 1;
             this.resultTabPage.Text = "Result";
             this.resultTabPage.UseVisualStyleBackColor = true;
@@ -185,7 +185,7 @@ namespace DemosCommonCode.Imaging
             this.resultGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.resultGroupBox.Location = new System.Drawing.Point(3, 3);
             this.resultGroupBox.Name = "resultGroupBox";
-            this.resultGroupBox.Size = new System.Drawing.Size(534, 465);
+            this.resultGroupBox.Size = new System.Drawing.Size(534, 467);
             this.resultGroupBox.TabIndex = 1;
             this.resultGroupBox.TabStop = false;
             // 
@@ -193,12 +193,12 @@ namespace DemosCommonCode.Imaging
             // 
             this.processingResultViewer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.processingResultViewer.ImageIndex = 0;
-            this.processingResultViewer.Location = new System.Drawing.Point(3, 19);
+            this.processingResultViewer.Location = new System.Drawing.Point(3, 16);
             this.processingResultViewer.MinimumSize = new System.Drawing.Size(116, 88);
             this.processingResultViewer.Name = "processingResultViewer";
             this.processingResultViewer.ProcessingResult = null;
             this.processingResultViewer.SelectedImageIndex = 0;
-            this.processingResultViewer.Size = new System.Drawing.Size(528, 443);
+            this.processingResultViewer.Size = new System.Drawing.Size(528, 448);
             this.processingResultViewer.TabIndex = 0;
             // 
             // ProcessingCommandControlBase

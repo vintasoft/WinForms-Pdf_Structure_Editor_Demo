@@ -51,37 +51,39 @@ namespace DemosCommonCode.Pdf
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pageNumberNumericUpDown)).BeginInit();
             this.destinationXyzPanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.destinationZoomNumericUpDown)).BeginInit();
             this.destinationFitRectanglePanel.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // positionComboBox
             // 
-            this.positionComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.positionComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.positionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.positionComboBox.FormattingEnabled = true;
-            this.positionComboBox.Location = new System.Drawing.Point(89, 38);
+            this.positionComboBox.Location = new System.Drawing.Point(12, 69);
             this.positionComboBox.Name = "positionComboBox";
-            this.positionComboBox.Size = new System.Drawing.Size(159, 21);
+            this.positionComboBox.Size = new System.Drawing.Size(115, 21);
             this.positionComboBox.TabIndex = 7;
             this.positionComboBox.SelectedIndexChanged += new System.EventHandler(this.positionComboBox_SelectedIndexChanged);
             // 
             // pageNumberNumericUpDown
             // 
-            this.pageNumberNumericUpDown.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.pageNumberNumericUpDown.Location = new System.Drawing.Point(90, 12);
+            this.pageNumberNumericUpDown.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pageNumberNumericUpDown.Location = new System.Drawing.Point(12, 30);
             this.pageNumberNumericUpDown.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.pageNumberNumericUpDown.Name = "pageNumberNumericUpDown";
-            this.pageNumberNumericUpDown.Size = new System.Drawing.Size(158, 20);
+            this.pageNumberNumericUpDown.Size = new System.Drawing.Size(115, 20);
             this.pageNumberNumericUpDown.TabIndex = 6;
             this.pageNumberNumericUpDown.Value = new decimal(new int[] {
             1,
@@ -92,7 +94,7 @@ namespace DemosCommonCode.Pdf
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 42);
+            this.label2.Location = new System.Drawing.Point(12, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 5;
@@ -110,7 +112,7 @@ namespace DemosCommonCode.Pdf
             // okButton
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.okButton.Location = new System.Drawing.Point(92, 183);
+            this.okButton.Location = new System.Drawing.Point(92, 251);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 8;
@@ -122,7 +124,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(173, 183);
+            this.buttonCancel.Location = new System.Drawing.Point(173, 251);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 9;
@@ -131,15 +133,14 @@ namespace DemosCommonCode.Pdf
             // 
             // destinationXyzPanel
             // 
-            this.destinationXyzPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.destinationXyzPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.destinationXyzPanel.Controls.Add(this.destinationZoomCheckBox);
-            this.destinationXyzPanel.Controls.Add(this.groupBox1);
             this.destinationXyzPanel.Controls.Add(this.destinationZoomNumericUpDown);
-            this.destinationXyzPanel.Location = new System.Drawing.Point(15, 65);
+            this.destinationXyzPanel.Controls.Add(this.groupBox1);
+            this.destinationXyzPanel.Location = new System.Drawing.Point(12, 96);
             this.destinationXyzPanel.Name = "destinationXyzPanel";
-            this.destinationXyzPanel.Size = new System.Drawing.Size(233, 111);
+            this.destinationXyzPanel.Size = new System.Drawing.Size(233, 137);
             this.destinationXyzPanel.TabIndex = 10;
             this.destinationXyzPanel.Visible = false;
             // 
@@ -158,8 +159,8 @@ namespace DemosCommonCode.Pdf
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.destinationYTextBox);
             this.groupBox1.Controls.Add(this.destinationXTextBox);
             this.groupBox1.Controls.Add(this.destinationYCheckBox);
@@ -173,8 +174,8 @@ namespace DemosCommonCode.Pdf
             // 
             // destinationYTextBox
             // 
-            this.destinationYTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.destinationYTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.destinationYTextBox.Location = new System.Drawing.Point(72, 44);
             this.destinationYTextBox.Name = "destinationYTextBox";
             this.destinationYTextBox.Size = new System.Drawing.Size(149, 20);
@@ -182,8 +183,8 @@ namespace DemosCommonCode.Pdf
             // 
             // destinationXTextBox
             // 
-            this.destinationXTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.destinationXTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.destinationXTextBox.Location = new System.Drawing.Point(71, 18);
             this.destinationXTextBox.Name = "destinationXTextBox";
             this.destinationXTextBox.Size = new System.Drawing.Size(150, 20);
@@ -217,9 +218,9 @@ namespace DemosCommonCode.Pdf
             // 
             // destinationZoomNumericUpDown
             // 
-            this.destinationZoomNumericUpDown.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.destinationZoomNumericUpDown.Location = new System.Drawing.Point(118, 83);
+            this.destinationZoomNumericUpDown.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.destinationZoomNumericUpDown.Location = new System.Drawing.Point(12, 106);
             this.destinationZoomNumericUpDown.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -241,55 +242,48 @@ namespace DemosCommonCode.Pdf
             // 
             // destinationFitRectanglePanel
             // 
-            this.destinationFitRectanglePanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.destinationFitRectanglePanel.Controls.Add(this.destinationFitRectangleHeightTextBox);
-            this.destinationFitRectanglePanel.Controls.Add(this.destinationFitRectangleWidthTextBox);
-            this.destinationFitRectanglePanel.Controls.Add(this.destinationFitRectangleYTextBox);
-            this.destinationFitRectanglePanel.Controls.Add(this.destinationFitRectangleXTextBox);
-            this.destinationFitRectanglePanel.Controls.Add(this.label9);
-            this.destinationFitRectanglePanel.Controls.Add(this.label8);
-            this.destinationFitRectanglePanel.Controls.Add(this.label7);
-            this.destinationFitRectanglePanel.Controls.Add(this.label6);
-            this.destinationFitRectanglePanel.Location = new System.Drawing.Point(15, 65);
+            this.destinationFitRectanglePanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.destinationFitRectanglePanel.Controls.Add(this.tableLayoutPanel1);
+            this.destinationFitRectanglePanel.Location = new System.Drawing.Point(12, 96);
             this.destinationFitRectanglePanel.Name = "destinationFitRectanglePanel";
-            this.destinationFitRectanglePanel.Size = new System.Drawing.Size(233, 111);
+            this.destinationFitRectanglePanel.Size = new System.Drawing.Size(233, 137);
             this.destinationFitRectanglePanel.TabIndex = 11;
             this.destinationFitRectanglePanel.Visible = false;
             // 
             // destinationFitRectangleHeightTextBox
             // 
-            this.destinationFitRectangleHeightTextBox.Location = new System.Drawing.Point(45, 80);
+            this.destinationFitRectangleHeightTextBox.Location = new System.Drawing.Point(47, 81);
             this.destinationFitRectangleHeightTextBox.Name = "destinationFitRectangleHeightTextBox";
-            this.destinationFitRectangleHeightTextBox.Size = new System.Drawing.Size(185, 20);
+            this.destinationFitRectangleHeightTextBox.Size = new System.Drawing.Size(183, 20);
             this.destinationFitRectangleHeightTextBox.TabIndex = 11;
             // 
             // destinationFitRectangleWidthTextBox
             // 
-            this.destinationFitRectangleWidthTextBox.Location = new System.Drawing.Point(45, 54);
+            this.destinationFitRectangleWidthTextBox.Location = new System.Drawing.Point(47, 55);
             this.destinationFitRectangleWidthTextBox.Name = "destinationFitRectangleWidthTextBox";
-            this.destinationFitRectangleWidthTextBox.Size = new System.Drawing.Size(185, 20);
+            this.destinationFitRectangleWidthTextBox.Size = new System.Drawing.Size(183, 20);
             this.destinationFitRectangleWidthTextBox.TabIndex = 10;
             // 
             // destinationFitRectangleYTextBox
             // 
-            this.destinationFitRectangleYTextBox.Location = new System.Drawing.Point(45, 28);
+            this.destinationFitRectangleYTextBox.Location = new System.Drawing.Point(47, 29);
             this.destinationFitRectangleYTextBox.Name = "destinationFitRectangleYTextBox";
-            this.destinationFitRectangleYTextBox.Size = new System.Drawing.Size(185, 20);
+            this.destinationFitRectangleYTextBox.Size = new System.Drawing.Size(183, 20);
             this.destinationFitRectangleYTextBox.TabIndex = 9;
             // 
             // destinationFitRectangleXTextBox
             // 
-            this.destinationFitRectangleXTextBox.Location = new System.Drawing.Point(45, 4);
+            this.destinationFitRectangleXTextBox.Location = new System.Drawing.Point(47, 3);
             this.destinationFitRectangleXTextBox.Name = "destinationFitRectangleXTextBox";
-            this.destinationFitRectangleXTextBox.Size = new System.Drawing.Size(185, 20);
+            this.destinationFitRectangleXTextBox.Size = new System.Drawing.Size(183, 20);
             this.destinationFitRectangleXTextBox.TabIndex = 8;
             // 
             // label9
             // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(4, 83);
+            this.label9.Location = new System.Drawing.Point(3, 84);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 13);
             this.label9.TabIndex = 3;
@@ -297,8 +291,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(4, 57);
+            this.label8.Location = new System.Drawing.Point(3, 58);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 2;
@@ -306,8 +301,9 @@ namespace DemosCommonCode.Pdf
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(4, 31);
+            this.label7.Location = new System.Drawing.Point(3, 32);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(14, 13);
             this.label7.TabIndex = 1;
@@ -315,25 +311,52 @@ namespace DemosCommonCode.Pdf
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(4, 5);
+            this.label6.Location = new System.Drawing.Point(3, 6);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(14, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "X";
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.label6, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.destinationFitRectangleHeightTextBox, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.destinationFitRectangleXTextBox, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.destinationFitRectangleWidthTextBox, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label7, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.destinationFitRectangleYTextBox, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label8, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label9, 0, 3);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(233, 137);
+            this.tableLayoutPanel1.TabIndex = 12;
+            // 
             // PdfGotoActionEditorForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(260, 211);
-            this.Controls.Add(this.destinationXyzPanel);
+            this.ClientSize = new System.Drawing.Size(260, 279);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.positionComboBox);
             this.Controls.Add(this.pageNumberNumericUpDown);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.destinationXyzPanel);
             this.Controls.Add(this.destinationFitRectanglePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
@@ -348,7 +371,8 @@ namespace DemosCommonCode.Pdf
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.destinationZoomNumericUpDown)).EndInit();
             this.destinationFitRectanglePanel.ResumeLayout(false);
-            this.destinationFitRectanglePanel.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -379,5 +403,6 @@ namespace DemosCommonCode.Pdf
         private System.Windows.Forms.TextBox destinationFitRectangleWidthTextBox;
         private System.Windows.Forms.TextBox destinationFitRectangleYTextBox;
         private System.Windows.Forms.TextBox destinationFitRectangleXTextBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

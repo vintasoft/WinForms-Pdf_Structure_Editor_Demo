@@ -48,7 +48,7 @@ namespace DemosCommonCode.Pdf
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.okButton.Enabled = false;
-            this.okButton.Location = new System.Drawing.Point(226, 43);
+            this.okButton.Location = new System.Drawing.Point(163, 66);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 2;
@@ -60,7 +60,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(307, 43);
+            this.buttonCancel.Location = new System.Drawing.Point(244, 66);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 3;
@@ -69,17 +69,17 @@ namespace DemosCommonCode.Pdf
             // 
             // nameComboBox
             // 
-            this.nameComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.nameComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.nameComboBox.FormattingEnabled = true;
             this.nameComboBox.Items.AddRange(new object[] {
             "NextPage",
             "PrevPage",
             "FirstPage",
             "LastPage"});
-            this.nameComboBox.Location = new System.Drawing.Point(53, 12);
+            this.nameComboBox.Location = new System.Drawing.Point(12, 31);
             this.nameComboBox.Name = "nameComboBox";
-            this.nameComboBox.Size = new System.Drawing.Size(329, 21);
+            this.nameComboBox.Size = new System.Drawing.Size(307, 21);
             this.nameComboBox.TabIndex = 4;
             this.nameComboBox.TextChanged += new System.EventHandler(this.nameComboBox_TextChanged);
             // 
@@ -88,7 +88,7 @@ namespace DemosCommonCode.Pdf
             this.AcceptButton = this.okButton;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(394, 76);
+            this.ClientSize = new System.Drawing.Size(331, 99);
             this.Controls.Add(this.nameComboBox);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.okButton);

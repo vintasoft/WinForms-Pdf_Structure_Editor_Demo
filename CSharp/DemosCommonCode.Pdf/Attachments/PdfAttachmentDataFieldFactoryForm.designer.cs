@@ -37,7 +37,7 @@ namespace DemosCommonCode.Pdf
             // okButton
             // 
             this.okButton.Enabled = false;
-            this.okButton.Location = new System.Drawing.Point(126, 51);
+            this.okButton.Location = new System.Drawing.Point(126, 65);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 0;
@@ -48,7 +48,7 @@ namespace DemosCommonCode.Pdf
             // buttonCancel
             // 
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(207, 51);
+            this.buttonCancel.Location = new System.Drawing.Point(207, 65);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 1;
@@ -59,9 +59,9 @@ namespace DemosCommonCode.Pdf
             // fieldNameComboBox
             // 
             this.fieldNameComboBox.FormattingEnabled = true;
-            this.fieldNameComboBox.Location = new System.Drawing.Point(102, 12);
+            this.fieldNameComboBox.Location = new System.Drawing.Point(12, 30);
             this.fieldNameComboBox.Name = "fieldNameComboBox";
-            this.fieldNameComboBox.Size = new System.Drawing.Size(183, 21);
+            this.fieldNameComboBox.Size = new System.Drawing.Size(270, 21);
             this.fieldNameComboBox.TabIndex = 2;
             this.fieldNameComboBox.SelectedValueChanged += new System.EventHandler(this.fieldNameComboBox_SelectedValueChanged);
             // 
@@ -74,12 +74,12 @@ namespace DemosCommonCode.Pdf
             this.label2.TabIndex = 5;
             this.label2.Text = "Field Name";
             // 
-            // PdfEmbeddedFileDataFieldFactoryForm
+            // PdfAttachmentDataFieldFactoryForm
             // 
             this.AcceptButton = this.okButton;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(294, 87);
+            this.ClientSize = new System.Drawing.Size(294, 100);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.fieldNameComboBox);
             this.Controls.Add(this.buttonCancel);
@@ -87,7 +87,7 @@ namespace DemosCommonCode.Pdf
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "PdfEmbeddedFileDataFieldFactoryForm";
+            this.Name = "PdfAttachmentDataFieldFactoryForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Create New Data Field";
             this.ResumeLayout(false);

@@ -44,18 +44,18 @@ namespace DemosCommonCode.Pdf
             // 
             // submitUrlTextBox
             // 
-            this.submitUrlTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.submitUrlTextBox.Location = new System.Drawing.Point(55, 39);
+            this.submitUrlTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.submitUrlTextBox.Location = new System.Drawing.Point(12, 71);
             this.submitUrlTextBox.Name = "submitUrlTextBox";
-            this.submitUrlTextBox.Size = new System.Drawing.Size(577, 20);
+            this.submitUrlTextBox.Size = new System.Drawing.Size(620, 20);
             this.submitUrlTextBox.TabIndex = 7;
             this.submitUrlTextBox.TextChanged += new System.EventHandler(this.submitUrlTextBox_TextChanged);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(10, 42);
+            this.label8.Location = new System.Drawing.Point(10, 55);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(29, 13);
             this.label8.TabIndex = 6;
@@ -63,13 +63,11 @@ namespace DemosCommonCode.Pdf
             // 
             // submitFormatComboBox
             // 
-            this.submitFormatComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.submitFormatComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.submitFormatComboBox.FormattingEnabled = true;
-            this.submitFormatComboBox.Location = new System.Drawing.Point(55, 12);
+            this.submitFormatComboBox.Location = new System.Drawing.Point(12, 31);
             this.submitFormatComboBox.Name = "submitFormatComboBox";
-            this.submitFormatComboBox.Size = new System.Drawing.Size(577, 21);
+            this.submitFormatComboBox.Size = new System.Drawing.Size(104, 21);
             this.submitFormatComboBox.TabIndex = 5;
             // 
             // label7
@@ -85,7 +83,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.okButton.Location = new System.Drawing.Point(476, 341);
+            this.okButton.Location = new System.Drawing.Point(476, 387);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 8;
@@ -97,7 +95,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonCancel.Location = new System.Drawing.Point(557, 341);
+            this.buttonCancel.Location = new System.Drawing.Point(557, 387);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 9;
@@ -108,7 +106,7 @@ namespace DemosCommonCode.Pdf
             // 
             this.allFieldsRadioButton.AutoSize = true;
             this.allFieldsRadioButton.Checked = true;
-            this.allFieldsRadioButton.Location = new System.Drawing.Point(19, 65);
+            this.allFieldsRadioButton.Location = new System.Drawing.Point(19, 97);
             this.allFieldsRadioButton.Name = "allFieldsRadioButton";
             this.allFieldsRadioButton.Size = new System.Drawing.Size(66, 17);
             this.allFieldsRadioButton.TabIndex = 10;
@@ -120,7 +118,7 @@ namespace DemosCommonCode.Pdf
             // selectedFieldsRadioButton
             // 
             this.selectedFieldsRadioButton.AutoSize = true;
-            this.selectedFieldsRadioButton.Location = new System.Drawing.Point(19, 88);
+            this.selectedFieldsRadioButton.Location = new System.Drawing.Point(19, 120);
             this.selectedFieldsRadioButton.Name = "selectedFieldsRadioButton";
             this.selectedFieldsRadioButton.Size = new System.Drawing.Size(97, 17);
             this.selectedFieldsRadioButton.TabIndex = 11;
@@ -130,13 +128,13 @@ namespace DemosCommonCode.Pdf
             // 
             // selectedFieldsGroupBox
             // 
-            this.selectedFieldsGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.selectedFieldsGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.selectedFieldsGroupBox.Controls.Add(this.excludeSelectedFieldsCheckBox);
             this.selectedFieldsGroupBox.Controls.Add(this.pdfInteractiveFormFieldListEditorControl);
             this.selectedFieldsGroupBox.Enabled = false;
-            this.selectedFieldsGroupBox.Location = new System.Drawing.Point(13, 97);
+            this.selectedFieldsGroupBox.Location = new System.Drawing.Point(13, 143);
             this.selectedFieldsGroupBox.Name = "selectedFieldsGroupBox";
             this.selectedFieldsGroupBox.Size = new System.Drawing.Size(619, 238);
             this.selectedFieldsGroupBox.TabIndex = 13;
@@ -154,9 +152,9 @@ namespace DemosCommonCode.Pdf
             // 
             // pdfInteractiveFormFieldListEditorControl
             // 
-            this.pdfInteractiveFormFieldListEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.pdfInteractiveFormFieldListEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pdfInteractiveFormFieldListEditorControl.InteractiveForm = null;
             this.pdfInteractiveFormFieldListEditorControl.Location = new System.Drawing.Point(6, 37);
             this.pdfInteractiveFormFieldListEditorControl.MinimumSize = new System.Drawing.Size(273, 115);
@@ -170,7 +168,7 @@ namespace DemosCommonCode.Pdf
             this.AcceptButton = this.okButton;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonCancel;
-            this.ClientSize = new System.Drawing.Size(644, 376);
+            this.ClientSize = new System.Drawing.Size(644, 422);
             this.Controls.Add(this.selectedFieldsRadioButton);
             this.Controls.Add(this.selectedFieldsGroupBox);
             this.Controls.Add(this.allFieldsRadioButton);

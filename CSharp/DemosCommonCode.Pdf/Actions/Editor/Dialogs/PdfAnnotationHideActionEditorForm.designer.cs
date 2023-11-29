@@ -69,12 +69,12 @@ namespace DemosCommonCode.Pdf
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 90F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel1.Controls.Add(this.pdfPageAnnotationsControl, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.annotationsListBox, 2, 0);
@@ -99,37 +99,42 @@ namespace DemosCommonCode.Pdf
             this.pdfPageAnnotationsControl.MultiSelect = false;
             this.pdfPageAnnotationsControl.Name = "pdfPageAnnotationsControl";
             this.pdfPageAnnotationsControl.SelectedAnnotation = null;
-            this.pdfPageAnnotationsControl.Size = new System.Drawing.Size(312, 269);
+            this.pdfPageAnnotationsControl.Size = new System.Drawing.Size(316, 269);
             this.pdfPageAnnotationsControl.TabIndex = 0;
             this.pdfPageAnnotationsControl.UseCompatibleStateImageBehavior = false;
             this.pdfPageAnnotationsControl.View = System.Windows.Forms.View.Details;
-            this.pdfPageAnnotationsControl.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.pdfPageAnnotationsControl_MouseDoubleClick);
             this.pdfPageAnnotationsControl.SelectedIndexChanged += new System.EventHandler(this.pdfPageAnnotationsControl_SelectedIndexChanged);
+            this.pdfPageAnnotationsControl.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.pdfPageAnnotationsControl_MouseDoubleClick);
             // 
             // annotationsListBox
             // 
             this.annotationsListBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.annotationsListBox.FormattingEnabled = true;
-            this.annotationsListBox.Location = new System.Drawing.Point(411, 3);
+            this.annotationsListBox.Location = new System.Drawing.Point(408, 3);
             this.annotationsListBox.Name = "annotationsListBox";
-            this.annotationsListBox.Size = new System.Drawing.Size(206, 264);
+            this.annotationsListBox.Size = new System.Drawing.Size(209, 269);
             this.annotationsListBox.TabIndex = 1;
-            this.annotationsListBox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.annotationsListBox_MouseDoubleClick);
             this.annotationsListBox.SelectedIndexChanged += new System.EventHandler(this.annotationsListBox_SelectedIndexChanged);
+            this.annotationsListBox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.annotationsListBox_MouseDoubleClick);
             // 
             // panel1
             // 
+            this.panel1.AutoSize = true;
             this.panel1.Controls.Add(this.removeAllButton);
             this.panel1.Controls.Add(this.removeButton);
             this.panel1.Controls.Add(this.addButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(321, 3);
+            this.panel1.Location = new System.Drawing.Point(322, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(84, 269);
+            this.panel1.Size = new System.Drawing.Size(83, 275);
             this.panel1.TabIndex = 2;
             // 
             // removeAllButton
             // 
+            this.removeAllButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.removeAllButton.AutoSize = true;
             this.removeAllButton.Enabled = false;
             this.removeAllButton.Location = new System.Drawing.Point(5, 241);
             this.removeAllButton.Name = "removeAllButton";
@@ -141,6 +146,9 @@ namespace DemosCommonCode.Pdf
             // 
             // removeButton
             // 
+            this.removeButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.removeButton.AutoSize = true;
             this.removeButton.Enabled = false;
             this.removeButton.Location = new System.Drawing.Point(5, 45);
             this.removeButton.Name = "removeButton";
@@ -152,6 +160,9 @@ namespace DemosCommonCode.Pdf
             // 
             // addButton
             // 
+            this.addButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.addButton.AutoSize = true;
             this.addButton.Enabled = false;
             this.addButton.Location = new System.Drawing.Point(5, 16);
             this.addButton.Name = "addButton";
@@ -199,7 +210,9 @@ namespace DemosCommonCode.Pdf
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Annotation Hide Action Editor";
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

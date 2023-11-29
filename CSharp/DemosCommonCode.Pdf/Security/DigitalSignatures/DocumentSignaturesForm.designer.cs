@@ -33,12 +33,14 @@ namespace DemosCommonCode.Pdf.Security
             this.signaturesTreeView = new System.Windows.Forms.TreeView();
             this.saveDocumentRevisionButton = new System.Windows.Forms.Button();
             this.useSigningCertificateChainToBuildChainCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // okButton
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.okButton.Location = new System.Drawing.Point(532, 411);
+            this.okButton.Location = new System.Drawing.Point(541, 26);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(80, 23);
             this.okButton.TabIndex = 2;
@@ -49,7 +51,8 @@ namespace DemosCommonCode.Pdf.Security
             // vefifyAllButton
             // 
             this.vefifyAllButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.vefifyAllButton.Location = new System.Drawing.Point(11, 411);
+            this.vefifyAllButton.AutoSize = true;
+            this.vefifyAllButton.Location = new System.Drawing.Point(3, 26);
             this.vefifyAllButton.Name = "vefifyAllButton";
             this.vefifyAllButton.Size = new System.Drawing.Size(146, 23);
             this.vefifyAllButton.TabIndex = 5;
@@ -73,7 +76,8 @@ namespace DemosCommonCode.Pdf.Security
             // saveDocumentRevisionButton
             // 
             this.saveDocumentRevisionButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.saveDocumentRevisionButton.Location = new System.Drawing.Point(163, 411);
+            this.saveDocumentRevisionButton.AutoSize = true;
+            this.saveDocumentRevisionButton.Location = new System.Drawing.Point(155, 26);
             this.saveDocumentRevisionButton.Name = "saveDocumentRevisionButton";
             this.saveDocumentRevisionButton.Size = new System.Drawing.Size(183, 23);
             this.saveDocumentRevisionButton.TabIndex = 7;
@@ -85,7 +89,8 @@ namespace DemosCommonCode.Pdf.Security
             // 
             this.useSigningCertificateChainToBuildChainCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.useSigningCertificateChainToBuildChainCheckBox.AutoSize = true;
-            this.useSigningCertificateChainToBuildChainCheckBox.Location = new System.Drawing.Point(12, 391);
+            this.tableLayoutPanel1.SetColumnSpan(this.useSigningCertificateChainToBuildChainCheckBox, 3);
+            this.useSigningCertificateChainToBuildChainCheckBox.Location = new System.Drawing.Point(3, 3);
             this.useSigningCertificateChainToBuildChainCheckBox.Name = "useSigningCertificateChainToBuildChainCheckBox";
             this.useSigningCertificateChainToBuildChainCheckBox.Size = new System.Drawing.Size(463, 17);
             this.useSigningCertificateChainToBuildChainCheckBox.TabIndex = 8;
@@ -93,19 +98,39 @@ namespace DemosCommonCode.Pdf.Security
     "vocation check)";
             this.useSigningCertificateChainToBuildChainCheckBox.UseVisualStyleBackColor = true;
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.vefifyAllButton, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.useSigningCertificateChainToBuildChainCheckBox, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.saveDocumentRevisionButton, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.okButton, 2, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 390);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(624, 52);
+            this.tableLayoutPanel1.TabIndex = 9;
+            // 
             // DocumentSignaturesForm
             // 
             this.AcceptButton = this.okButton;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(624, 442);
-            this.Controls.Add(this.useSigningCertificateChainToBuildChainCheckBox);
-            this.Controls.Add(this.saveDocumentRevisionButton);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.signaturesTreeView);
-            this.Controls.Add(this.vefifyAllButton);
-            this.Controls.Add(this.okButton);
             this.Name = "DocumentSignaturesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Document Signatures";
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -118,5 +143,6 @@ namespace DemosCommonCode.Pdf.Security
         private System.Windows.Forms.TreeView signaturesTreeView;
         private System.Windows.Forms.Button saveDocumentRevisionButton;
         private System.Windows.Forms.CheckBox useSigningCertificateChainToBuildChainCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
