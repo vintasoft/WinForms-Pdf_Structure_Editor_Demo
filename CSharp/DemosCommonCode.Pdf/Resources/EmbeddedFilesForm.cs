@@ -177,7 +177,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -186,7 +186,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SaveAsButton object.
+        /// Handles the Click event of saveAsButton object.
         /// </summary>
         private void saveAsButton_Click(object sender, EventArgs e)
         {
@@ -203,7 +203,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveButton object.
+        /// Handles the Click event of removeButton object.
         /// </summary>
         private void removeButton_Click(object sender, EventArgs e)
         {
@@ -227,7 +227,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of AddButton object.
+        /// Handles the Click event of addButton object.
         /// </summary>
         private void addButton_Click(object sender, EventArgs e)
         {
@@ -292,7 +292,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectionChanged event of EmbeddedFilesDataGridView object.
+        /// Handles the SelectionChanged event of embeddedFilesDataGridView object.
         /// </summary>
         private void embeddedFilesDataGridView_SelectionChanged(object sender, EventArgs e)
         {
@@ -313,7 +313,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of CompressionComboBox object.
+        /// Handles the SelectedIndexChanged event of compressionComboBox object.
         /// </summary>
         private void compressionComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -338,7 +338,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of DescriptionTextBox object.
+        /// Handles the TextChanged event of descriptionTextBox object.
         /// </summary>
         private void descriptionTextBox_TextChanged(object sender, EventArgs e)
         {

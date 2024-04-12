@@ -184,7 +184,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -321,7 +321,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of PositionComboBox object.
+        /// Handles the SelectedIndexChanged event of positionComboBox object.
         /// </summary>
         private void positionComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -343,7 +343,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of DestinationXCheckBox object.
+        /// Handles the CheckedChanged event of destinationXCheckBox object.
         /// </summary>
         private void destinationXCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -355,7 +355,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of DestinationYCheckBox object.
+        /// Handles the CheckedChanged event of destinationYCheckBox object.
         /// </summary>
         private void destinationYCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -367,7 +367,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of DestinationZoomCheckBox object.
+        /// Handles the CheckedChanged event of destinationZoomCheckBox object.
         /// </summary>
         private void destinationZoomCheckBox_CheckedChanged(object sender, EventArgs e)
         {

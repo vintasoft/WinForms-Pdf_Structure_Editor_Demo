@@ -58,7 +58,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -97,7 +97,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of RadioButton object.
+        /// Handles the CheckedChanged event of radioButton object.
         /// </summary>
         private void radioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -109,7 +109,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of SubmitUrlTextBox object.
+        /// Handles the TextChanged event of submitUrlTextBox object.
         /// </summary>
         private void submitUrlTextBox_TextChanged(object sender, EventArgs e)
         {

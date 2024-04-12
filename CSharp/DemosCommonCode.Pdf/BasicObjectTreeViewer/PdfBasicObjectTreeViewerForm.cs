@@ -49,7 +49,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the Click event of CloseButton object.
+        /// Handles the Click event of closeButton object.
         /// </summary>
         private void closeButton_Click(object sender, EventArgs e)
         {
@@ -58,7 +58,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the AfterSelect event of BasicObjectTreeView object.
+        /// Handles the AfterSelect event of basicObjectTreeView object.
         /// </summary>
         private void basicObjectTreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
@@ -69,6 +69,9 @@ namespace DemosCommonCode.Pdf
             basicObjectPropertyGrid.SelectedObject = e.Node.Tag;
         }
 
+        /// <summary>
+        /// Handles the PropertyValueChanged event of basicObjectPropertyGrid object.
+        /// </summary>
         private void basicObjectPropertyGrid_PropertyValueChanged(
             object s,
             PropertyValueChangedEventArgs e)

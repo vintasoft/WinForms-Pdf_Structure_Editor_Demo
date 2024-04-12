@@ -46,7 +46,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -55,7 +55,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of CommandLineTextBox object.
+        /// Handles the TextChanged event of commandLineTextBox object.
         /// </summary>
         private void commandLineTextBox_TextChanged(object sender, EventArgs e)
         {

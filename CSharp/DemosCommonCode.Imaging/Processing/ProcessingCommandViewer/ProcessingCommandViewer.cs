@@ -136,6 +136,11 @@ namespace DemosCommonCode.Imaging
         static Dictionary<string, string> _imageKeyToResourceName =
             new Dictionary<string, string>();
 
+        /// <summary>
+        /// The added PDF/A processing.
+        /// </summary>
+        Dictionary<IProcessingCommandInfo, TreeNode> _addedPdfaProcessing = new Dictionary<IProcessingCommandInfo, TreeNode>();
+
         #endregion
 
 
@@ -457,7 +462,7 @@ namespace DemosCommonCode.Imaging
         #region UI
 
         /// <summary>
-        /// Handles the Opening event of TreeNodeMenu object.
+        /// Handles the Opening event of treeNodeMenu object.
         /// </summary>
         private void treeNodeMenu_Opening(object sender, CancelEventArgs e)
         {
@@ -474,7 +479,7 @@ namespace DemosCommonCode.Imaging
         }
 
         /// <summary>
-        /// Handles the Click event of ExpandAllMenuItem object.
+        /// Handles the Click event of expandAllMenuItem object.
         /// </summary>
         private void expandAllMenuItem_Click(object sender, EventArgs e)
         {
@@ -485,7 +490,7 @@ namespace DemosCommonCode.Imaging
         }
 
         /// <summary>
-        /// Handles the Click event of CollapseAllMenuItem object.
+        /// Handles the Click event of collapseAllMenuItem object.
         /// </summary>
         private void collapseAllMenuItem_Click(object sender, EventArgs e)
         {
@@ -587,8 +592,7 @@ namespace DemosCommonCode.Imaging
             }
         }
 
-        Dictionary<IProcessingCommandInfo, TreeNode> _addedPdfaProcessing = new Dictionary<IProcessingCommandInfo, TreeNode>();
-
+        
         /// <summary>
         /// Adds the processing command to the processing commands tree.
         /// </summary>
@@ -627,12 +631,14 @@ namespace DemosCommonCode.Imaging
                 AddNode(converterNode.Nodes, targetConverter.Analyzer);
             }
 
+#if !REMOVE_PDF_PLUGIN
             if (command is PdfAVerifier || command is PdfAConverter)
             {
                 if (_addedPdfaProcessing.ContainsKey(command))
                     return node;
                 _addedPdfaProcessing.Add(command, node);
             }
+#endif
 
             if (command is ITriggerInfo)
             {

@@ -246,6 +246,9 @@ namespace DemosCommonCode.Imaging
 
         #region UI
 
+        /// <summary>
+        /// Handles the PropertyValueChanged event of propertyGrid object.
+        /// </summary>
         private void propertyGrid_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
         {
             // if command viewer must be updated
@@ -255,7 +258,7 @@ namespace DemosCommonCode.Imaging
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of ViewProcessingTreeStructureCheckBox object.
+        /// Handles the CheckedChanged event of viewProcessingTreeStructureCheckBox object.
         /// </summary>
         private void viewProcessingTreeStructureCheckBox_CheckedChanged(object sender, EventArgs e)
         {
@@ -267,7 +270,7 @@ namespace DemosCommonCode.Imaging
         }
 
         /// <summary>
-        /// Handles the AfterSelect event of ProcessingCommandViewer object.
+        /// Handles the AfterSelect event of processingCommandViewer object.
         /// </summary>
         private void processingCommandViewer_AfterSelect(object sender, TreeViewEventArgs e)
         {
@@ -291,7 +294,7 @@ namespace DemosCommonCode.Imaging
         }
 
         /// <summary>
-        /// Handles the Click event of ExecuteButton object.
+        /// Handles the Click event of executeButton object.
         /// </summary>
         private void executeButton_Click(object sender, EventArgs e)
         {
@@ -322,7 +325,7 @@ namespace DemosCommonCode.Imaging
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of MainTabControl object.
+        /// Handles the SelectedIndexChanged event of mainTabControl object.
         /// </summary>
         private void mainTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -333,7 +336,7 @@ namespace DemosCommonCode.Imaging
         }
 
         /// <summary>
-        /// Handles the FormClosed event of ParentForm object.
+        /// Handles the FormClosed event of parentForm object.
         /// </summary>
         private void parentForm_FormClosed(object sender, FormClosedEventArgs e)
         {

@@ -113,7 +113,7 @@ namespace DemosCommonCode.Pdf
 
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -129,7 +129,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CancelButton object.
+        /// Handles the Click event of cancelButton object.
         /// </summary>
         private void cancelButton_Click(object sender, EventArgs e)
         {
@@ -137,7 +137,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of UnitsComboBox object.
+        /// Handles the SelectedIndexChanged event of unitsComboBox object.
         /// </summary>
         private void unitsComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -145,7 +145,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of HeightTextBox object.
+        /// Handles the TextChanged event of heightTextBox object.
         /// </summary>
         private void heightTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -162,7 +162,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of WidthTextBox object.
+        /// Handles the TextChanged event of widthTextBox object.
         /// </summary>
         private void widthTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -179,7 +179,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of CustomSizeRadioButton object.
+        /// Handles the CheckedChanged event of customSizeRadioButton object.
         /// </summary>
         private void customSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -188,7 +188,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of StandardSizeRadioButton object.
+        /// Handles the CheckedChanged event of standardSizeRadioButton object.
         /// </summary>
         private void standardSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -197,7 +197,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of PaperKindComboBox object.
+        /// Handles the SelectedIndexChanged event of paperKindComboBox object.
         /// </summary>
         private void paperKindComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {

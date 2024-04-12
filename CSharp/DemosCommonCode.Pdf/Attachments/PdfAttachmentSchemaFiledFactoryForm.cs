@@ -103,7 +103,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the Click event of CancelButton object.
+        /// Handles the Click event of cancelButton object.
         /// </summary>
         private void cancelButton_Click(object sender, EventArgs e)
         {
@@ -112,7 +112,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -121,7 +121,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of DisplayedNameTextBox object.
+        /// Handles the TextChanged event of displayedNameTextBox object.
         /// </summary>
         private void displayedNameTextBox_TextChanged(object sender, EventArgs e)
         {
@@ -129,7 +129,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of NameTextBox object.
+        /// Handles the TextChanged event of nameTextBox object.
         /// </summary>
         private void nameTextBox_TextChanged(object sender, EventArgs e)
         {

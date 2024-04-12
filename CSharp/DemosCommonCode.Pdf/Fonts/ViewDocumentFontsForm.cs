@@ -81,7 +81,7 @@ namespace DemosCommonCode.Pdf
         #region PRIVATE
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of FontComboBox object.
+        /// Handles the SelectedIndexChanged event of fontComboBox object.
         /// </summary>
         private void fontComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -90,7 +90,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ValueChanged event of CellSizeNumericUpDown object.
+        /// Handles the ValueChanged event of cellSizeNumericUpDown object.
         /// </summary>
         private void cellSizeNumericUpDown_ValueChanged(object sender, EventArgs e)
         {
@@ -101,7 +101,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the MouseMove event of PdfFontViewerControl1 object.
+        /// Handles the MouseMove event of pdfFontViewerControl1 object.
         /// </summary>
         private void pdfFontViewerControl1_MouseMove(object sender, MouseEventArgs e)
         {
@@ -135,7 +135,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the MouseDoubleClick event of PdfFontViewerControl object.
+        /// Handles the MouseDoubleClick event of pdfFontViewerControl object.
         /// </summary>
         private void pdfFontViewerControl_MouseDoubleClick(object sender, MouseEventArgs e)
         {

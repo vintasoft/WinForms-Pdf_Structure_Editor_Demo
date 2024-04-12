@@ -108,7 +108,7 @@ namespace PdfStructureEditorDemo
         #region UI
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -155,7 +155,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CancelButton object.
+        /// Handles the Click event of cancelButton object.
         /// </summary>
         private void cancelButton_Click(object sender, EventArgs e)
         {
@@ -164,7 +164,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DefaultFilterParamsButton object.
+        /// Handles the Click event of defaultFilterParamsButton object.
         /// </summary>
         private void defaultFilterParamsButton_Click(object sender, EventArgs e)
         {
@@ -176,7 +176,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DocumentFormatButton object.
+        /// Handles the Click event of documentFormatButton object.
         /// </summary>
         private void documentFormatButton_Click(object sender, EventArgs e)
         {

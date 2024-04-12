@@ -269,7 +269,7 @@ namespace PdfStructureEditorDemo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of NewToolStripMenuItem object.
+        /// Handles the Click event of newToolStripMenuItem object.
         /// </summary>
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -292,7 +292,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of OpenToolStripMenuItem object.
+        /// Handles the Click event of openToolStripMenuItem object.
         /// </summary>
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -327,7 +327,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CloseToolStripMenuItem object.
+        /// Handles the Click event of closeToolStripMenuItem object.
         /// </summary>
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -339,7 +339,7 @@ namespace PdfStructureEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of AddToolStripMenuItem object.
+        /// Handles the Click event of addToolStripMenuItem object.
         /// </summary>
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -361,7 +361,7 @@ namespace PdfStructureEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of SaveToolStripMenuItem object.
+        /// Handles the Click event of saveToolStripMenuItem object.
         /// </summary>
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -374,7 +374,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveAsToolStripMenuItem object.
+        /// Handles the Click event of saveAsToolStripMenuItem object.
         /// </summary>
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -388,7 +388,7 @@ namespace PdfStructureEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of PackToolStripMenuItem object.
+        /// Handles the Click event of packToolStripMenuItem object.
         /// </summary>
         private void packToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -425,7 +425,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of OptimizeToolStripMenuItem object.
+        /// Handles the Click event of optimizeToolStripMenuItem object.
         /// </summary>
         private void optimizeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -463,7 +463,7 @@ namespace PdfStructureEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -480,7 +480,7 @@ namespace PdfStructureEditorDemo
         #region 'View' menu
 
         /// <summary>
-        /// Handles the Click event of RendererSettingsToolStripMenuItem object.
+        /// Handles the Click event of rendererSettingsToolStripMenuItem object.
         /// </summary>
         private void rendererSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -493,7 +493,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ImageViewerSettingsToolStripMenuItem object.
+        /// Handles the Click event of imageViewerSettingsToolStripMenuItem object.
         /// </summary>
         private void imageViewerSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -507,7 +507,7 @@ namespace PdfStructureEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of ColorManagementToolStripMenuItem object.
+        /// Handles the Click event of colorManagementToolStripMenuItem object.
         /// </summary>
         private void colorManagementToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -541,7 +541,7 @@ namespace PdfStructureEditorDemo
         #region Document information
 
         /// <summary>
-        /// Handles the Click event of DocumentInformationToolStripMenuItem object.
+        /// Handles the Click event of documentInformationToolStripMenuItem object.
         /// </summary>
         private void documentInformationToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -555,7 +555,7 @@ namespace PdfStructureEditorDemo
         #region Verification
 
         /// <summary>
-        /// Handles the Click event of PdfA1bVerifierToolStripMenuItem object.
+        /// Handles the Click event of pdfA1bVerifierToolStripMenuItem object.
         /// </summary>
         private void pdfA1bVerifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -563,7 +563,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA2bVerifierToolStripMenuItem object.
+        /// Handles the Click event of pdfA2bVerifierToolStripMenuItem object.
         /// </summary>
         private void pdfA2bVerifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -571,7 +571,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA3bVerifierToolStripMenuItem object.
+        /// Handles the Click event of pdfA3bVerifierToolStripMenuItem object.
         /// </summary>
         private void pdfA3bVerifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -579,7 +579,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA1aVerifierToolStripMenuItem object.
+        /// Handles the Click event of pdfA1aVerifierToolStripMenuItem object.
         /// </summary>
         private void pdfA1aVerifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -587,7 +587,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA2aVerifierToolStripMenuItem object.
+        /// Handles the Click event of pdfA2aVerifierToolStripMenuItem object.
         /// </summary>
         private void pdfA2aVerifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -595,7 +595,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA3aVerifierToolStripMenuItem object.
+        /// Handles the Click event of pdfA3aVerifierToolStripMenuItem object.
         /// </summary>
         private void pdfA3aVerifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -603,7 +603,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA2uVerifierToolStripMenuItem object.
+        /// Handles the Click event of pdfA2uVerifierToolStripMenuItem object.
         /// </summary>
         private void pdfA2uVerifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -611,7 +611,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA3uVerifierToolStripMenuItem object.
+        /// Handles the Click event of pdfA3uVerifierToolStripMenuItem object.
         /// </summary>
         private void pdfA3uVerifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -624,7 +624,7 @@ namespace PdfStructureEditorDemo
         #region Conversion
 
         /// <summary>
-        /// Handles the Click event of PdfA1bConverterToolStripMenuItem object.
+        /// Handles the Click event of pdfA1bConverterToolStripMenuItem object.
         /// </summary>
         private void pdfA1bConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -632,7 +632,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA2bConverterToolStripMenuItem object.
+        /// Handles the Click event of pdfA2bConverterToolStripMenuItem object.
         /// </summary>
         private void pdfA2bConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -640,7 +640,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA3bConverterToolStripMenuItem object.
+        /// Handles the Click event of pdfA3bConverterToolStripMenuItem object.
         /// </summary>
         private void pdfA3bConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -648,7 +648,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA1aConverterToolStripMenuItem object.
+        /// Handles the Click event of pdfA1aConverterToolStripMenuItem object.
         /// </summary>
         private void pdfA1aConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -656,7 +656,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA2aConverterToolStripMenuItem object.
+        /// Handles the Click event of pdfA2aConverterToolStripMenuItem object.
         /// </summary>
         private void pdfA2aConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -664,7 +664,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA3aConverterToolStripMenuItem object.
+        /// Handles the Click event of pdfA3aConverterToolStripMenuItem object.
         /// </summary>
         private void pdfA3aConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -672,7 +672,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA2uConverterToolStripMenuItem object.
+        /// Handles the Click event of pdfA2uConverterToolStripMenuItem object.
         /// </summary>
         private void pdfA2uConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -680,7 +680,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PdfA3uConverterToolStripMenuItem object.
+        /// Handles the Click event of pdfA3uConverterToolStripMenuItem object.
         /// </summary>
         private void pdfA3uConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -694,7 +694,7 @@ namespace PdfStructureEditorDemo
         #region Security
 
         /// <summary>
-        /// Handles the Click event of SecurityPropertiesToolStripMenuItem object.
+        /// Handles the Click event of securityPropertiesToolStripMenuItem object.
         /// </summary>
         private void securityPropertiesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -706,7 +706,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SecuritySettingsToolStripMenuItem object.
+        /// Handles the Click event of securitySettingsToolStripMenuItem object.
         /// </summary>
         private void securitySettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -749,7 +749,7 @@ namespace PdfStructureEditorDemo
         #region Digital signatures
 
         /// <summary>
-        /// Handles the Click event of DigitalSignaturesToolStripMenuItem object.
+        /// Handles the Click event of digitalSignaturesToolStripMenuItem object.
         /// </summary>
         private void digitalSignaturesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -772,7 +772,7 @@ namespace PdfStructureEditorDemo
         #region Bookmarks
 
         /// <summary>
-        /// Handles the Click event of AddBookmarkToolStripMenuItem1 object.
+        /// Handles the Click event of addBookmarkToolStripMenuItem1 object.
         /// </summary>
         private void addBookmarkToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -784,7 +784,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DeleteBookmarkNodeToolStripMenuItem object.
+        /// Handles the Click event of deleteBookmarkNodeToolStripMenuItem object.
         /// </summary>
         private void deleteBookmarkNodeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -796,7 +796,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of EditBookmarkToolStripMenuItem object.
+        /// Handles the Click event of editBookmarkToolStripMenuItem object.
         /// </summary>
         private void editBookmarkToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -813,7 +813,7 @@ namespace PdfStructureEditorDemo
         #region Document view mode
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of DocumentViewModeComboBox object.
+        /// Handles the SelectedIndexChanged event of documentViewModeComboBox object.
         /// </summary>
         private void documentViewModeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -830,7 +830,7 @@ namespace PdfStructureEditorDemo
         #region Thumbnails
 
         /// <summary>
-        /// Handles the Click event of GenerateToolStripMenuItem object.
+        /// Handles the Click event of generateToolStripMenuItem object.
         /// </summary>
         private void generateToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -848,7 +848,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveToolStripMenuItem object.
+        /// Handles the Click event of removeToolStripMenuItem object.
         /// </summary>
         private void removeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -857,7 +857,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ViewToolStripMenuItem1 object.
+        /// Handles the Click event of viewToolStripMenuItem1 object.
         /// </summary>
         private void viewToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -890,7 +890,7 @@ namespace PdfStructureEditorDemo
         #region Actions
 
         /// <summary>
-        /// Handles the Click event of DocumentActionsToolStripMenuItem object.
+        /// Handles the Click event of documentActionsToolStripMenuItem object.
         /// </summary>
         private void documentActionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -910,7 +910,7 @@ namespace PdfStructureEditorDemo
         #region Attachments and embedded files
 
         /// <summary>
-        /// Handles the Click event of AttachmentsPortfolioToolStripMenuItem object.
+        /// Handles the Click event of attachmentsPortfolioToolStripMenuItem object.
         /// </summary>
         private void attachmentsPortfolioToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -929,7 +929,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveAttachmentsPortfolioToolStripMenuItem object.
+        /// Handles the Click event of removeAttachmentsPortfolioToolStripMenuItem object.
         /// </summary>
         private void removeAttachmentsPortfolioToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -942,7 +942,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of EmbeddedFilesToolStripMenuItem object.
+        /// Handles the Click event of embeddedFilesToolStripMenuItem object.
         /// </summary>
         private void embeddedFilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -960,7 +960,7 @@ namespace PdfStructureEditorDemo
         #region Resources
 
         /// <summary>
-        /// Handles the Click event of DocumentResourcesToolStripMenuItem object.
+        /// Handles the Click event of documentResourcesToolStripMenuItem object.
         /// </summary>
         private void documentResourcesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -985,7 +985,7 @@ namespace PdfStructureEditorDemo
         #region Fonts
 
         /// <summary>
-        /// Handles the Click event of FontsToolStripMenuItem object.
+        /// Handles the Click event of fontsToolStripMenuItem object.
         /// </summary>
         private void fontsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1012,7 +1012,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of EmbedAllFontsToolStripMenuItem object.
+        /// Handles the Click event of embedAllFontsToolStripMenuItem object.
         /// </summary>
         private void embedAllFontsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1033,7 +1033,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SubsetAllFontsToolStripMenuItem object.
+        /// Handles the Click event of subsetAllFontsToolStripMenuItem object.
         /// </summary>
         private void subsetAllFontsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1059,7 +1059,7 @@ namespace PdfStructureEditorDemo
         #region Basic object tree
 
         /// <summary>
-        /// Handles the Click event of BasicObjectsTreeToolStripMenuItem object.
+        /// Handles the Click event of basicObjectsTreeToolStripMenuItem object.
         /// </summary>
         private void basicObjectsTreeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1072,7 +1072,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PDFTreeToolStripMenuItem object.
+        /// Handles the Click event of pDFTreeToolStripMenuItem object.
         /// </summary>
         private void pDFTreeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1092,7 +1092,7 @@ namespace PdfStructureEditorDemo
         #region 'Page' menu
 
         /// <summary>
-        /// Handles the Click event of PropertiesToolStripMenuItem object.
+        /// Handles the Click event of propertiesToolStripMenuItem object.
         /// </summary>
         private void propertiesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1105,13 +1105,16 @@ namespace PdfStructureEditorDemo
             UpdateUI();
         }
 
+        /// <summary>
+        /// Handles the PropertyValueChanged event of propertyGrid object.
+        /// </summary>
         private void propertyGrid_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
         {
             DrawFocusedPage();
         }
 
         /// <summary>
-        /// Handles the Click event of PageResourcesToolStripMenuItem object.
+        /// Handles the Click event of pageResourcesToolStripMenuItem object.
         /// </summary>
         private void pageResourcesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1131,7 +1134,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DeletePageToolStripMenuItem object.
+        /// Handles the Click event of deletePageToolStripMenuItem object.
         /// </summary>
         private void deletePageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1143,7 +1146,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CopyPageToolStripMenuItem object.
+        /// Handles the Click event of copyPageToolStripMenuItem object.
         /// </summary>
         private void copyPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1155,7 +1158,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of PasteToolStripMenuItem object.
+        /// Handles the Click event of pasteToolStripMenuItem object.
         /// </summary>
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1177,7 +1180,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CutPageToolStripMenuItem object.
+        /// Handles the Click event of cutPageToolStripMenuItem object.
         /// </summary>
         private void cutPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1190,7 +1193,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of InsertPageToolStripMenuItem object.
+        /// Handles the Click event of insertPageToolStripMenuItem object.
         /// </summary>
         private void insertPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1211,7 +1214,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SavePageAsImageToolStripMenuItem object.
+        /// Handles the Click event of savePageAsImageToolStripMenuItem object.
         /// </summary>
         private void savePageAsImageToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1242,7 +1245,7 @@ namespace PdfStructureEditorDemo
         #region 'Help' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1258,7 +1261,7 @@ namespace PdfStructureEditorDemo
         #region PDF bookmarks
 
         /// <summary>
-        /// Handles the AfterSelect event of DocumentBookmarks object.
+        /// Handles the AfterSelect event of documentBookmarks object.
         /// </summary>
         private void documentBookmarks_AfterSelect(object sender, TreeViewEventArgs e)
         {
@@ -1280,7 +1283,7 @@ namespace PdfStructureEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of ButtonShowRuntimeMessages object.
+        /// Handles the Click event of buttonShowRuntimeMessages object.
         /// </summary>
         private void buttonShowRuntimeMessages_Click(object sender, EventArgs e)
         {
@@ -1290,7 +1293,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the PageIndexChanged event of ViewerToolStrip1 object.
+        /// Handles the PageIndexChanged event of viewerToolStrip1 object.
         /// </summary>
         private void viewerToolStrip1_PageIndexChanged(object sender, PageIndexChangedEventArgs e)
         {

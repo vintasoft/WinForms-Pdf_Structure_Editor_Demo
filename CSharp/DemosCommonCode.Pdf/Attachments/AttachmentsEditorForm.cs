@@ -154,7 +154,7 @@ namespace DemosCommonCode.Pdf
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of AddFilesToolStripMenuItem object.
+        /// Handles the Click event of addFilesToolStripMenuItem object.
         /// </summary>
         private void addFilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -194,7 +194,7 @@ namespace DemosCommonCode.Pdf
             }
         }
         /// <summary>
-        /// Handles the CheckedChanged event of EncodeFilesImmediatelyToolStripMenuItem object.
+        /// Handles the CheckedChanged event of encodeFilesImmediatelyToolStripMenuItem object.
         /// </summary>
         private void encodeFilesImmediatelyToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
         {
@@ -202,7 +202,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CreateNewFolderToolStripMenuItem object.
+        /// Handles the Click event of createNewFolderToolStripMenuItem object.
         /// </summary>
         private void createNewFolderToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -211,7 +211,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ImportToolStripMenuItem object.
+        /// Handles the Click event of importToolStripMenuItem object.
         /// </summary>
         private void importToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -230,7 +230,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SaveSelectedFilesToToolStripMenuItem object.
+        /// Handles the Click event of saveSelectedFilesToToolStripMenuItem object.
         /// </summary>
         private void saveSelectedFilesToToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -254,7 +254,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CloseToolStripMenuItem object.
+        /// Handles the Click event of closeToolStripMenuItem object.
         /// </summary>
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -267,7 +267,7 @@ namespace DemosCommonCode.Pdf
         #region 'View' menu
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ViewModeComboBox object.
+        /// Handles the SelectedIndexChanged event of viewModeComboBox object.
         /// </summary>
         private void viewModeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -279,7 +279,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of IconViewModeToolStripButton object.
+        /// Handles the Click event of iconViewModeToolStripButton object.
         /// </summary>
         private void iconViewModeToolStripButton_Click(object sender, EventArgs e)
         {
@@ -289,7 +289,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of DetailViewModeToolStripButton object.
+        /// Handles the Click event of detailViewModeToolStripButton object.
         /// </summary>
         private void detailViewModeToolStripButton_Click(object sender, EventArgs e)
         {
@@ -299,7 +299,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of InitialViewModeToolStripComboBox object.
+        /// Handles the SelectedIndexChanged event of initialViewModeToolStripComboBox object.
         /// </summary>
         private void initialViewModeToolStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -309,7 +309,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the TextChanged event of SortFieldNameToolStripComboBox object.
+        /// Handles the TextChanged event of sortFieldNameToolStripComboBox object.
         /// </summary>
         private void sortFieldNameToolStripComboBox_TextChanged(object sender, EventArgs e)
         {
@@ -330,7 +330,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of AscendingOrderToolStripMenuItem object.
+        /// Handles the CheckedChanged event of ascendingOrderToolStripMenuItem object.
         /// </summary>
         private void ascendingOrderToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
         {
@@ -347,7 +347,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveSortInformationToolStripMenuItem object.
+        /// Handles the Click event of removeSortInformationToolStripMenuItem object.
         /// </summary>
         private void removeSortInformationToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -366,7 +366,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of LevelUpToolStripMenuItem object.
+        /// Handles the Click event of levelUpToolStripMenuItem object.
         /// </summary>
         private void levelUpToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -375,7 +375,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of MoveToRootToolStripMenuItem object.
+        /// Handles the Click event of moveToRootToolStripMenuItem object.
         /// </summary>
         private void moveToRootToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -384,7 +384,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ColorsToolStripMenuItem object.
+        /// Handles the Click event of colorsToolStripMenuItem object.
         /// </summary>
         private void colorsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -415,7 +415,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ResetColorsToolStripMenuItem object.
+        /// Handles the Click event of resetColorsToolStripMenuItem object.
         /// </summary>
         private void resetColorsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -434,7 +434,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of GenerateThumbnailsForAllFilesToolStripMenuItem object.
+        /// Handles the Click event of generateThumbnailsForAllFilesToolStripMenuItem object.
         /// </summary>
         private void generateThumbnailsForAllFilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -464,7 +464,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of GenerateThumbnailsForSelectedFilesToolStripMenuItem object.
+        /// Handles the Click event of generateThumbnailsForSelectedFilesToolStripMenuItem object.
         /// </summary>
         private void generateThumbnailsForSelectedFilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -521,7 +521,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SetThumbnailForAllFoldersToolStripMenuItem object.
+        /// Handles the Click event of setThumbnailForAllFoldersToolStripMenuItem object.
         /// </summary>
         private void setThumbnailForAllFoldersToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -561,7 +561,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SetThumbnailForSelectedItemsToolStripMenuItem object.
+        /// Handles the Click event of setThumbnailForSelectedItemsToolStripMenuItem object.
         /// </summary>
         private void setThumbnailForSelectedItemsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -615,7 +615,7 @@ namespace DemosCommonCode.Pdf
         #region 'Edit' menu
 
         /// <summary>
-        /// Handles the Click event of DeleteSelectedToolStripMenuItem object.
+        /// Handles the Click event of deleteSelectedToolStripMenuItem object.
         /// </summary>
         private void deleteSelectedToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -624,7 +624,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SelectAllToolStripMenuItem object.
+        /// Handles the Click event of selectAllToolStripMenuItem object.
         /// </summary>
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -641,7 +641,7 @@ namespace DemosCommonCode.Pdf
         #region 'Schema' menu
 
         /// <summary>
-        /// Handles the Click event of SchemaEditorToolStripMenuItem object.
+        /// Handles the Click event of schemaEditorToolStripMenuItem object.
         /// </summary>
         private void schemaEditorToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -681,7 +681,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of SelectedFileDataFieldsToolStripMenuItem object.
+        /// Handles the Click event of selectedFileDataFieldsToolStripMenuItem object.
         /// </summary>
         private void selectedFileDataFieldsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -748,7 +748,7 @@ namespace DemosCommonCode.Pdf
         #region Attachment viewer
 
         /// <summary>
-        /// Handles the ItemActivate event of AttachmentViewer object.
+        /// Handles the ItemActivate event of attachmentViewer object.
         /// </summary>
         private void attachmentViewer_ItemActivate(object sender, EventArgs e)
         {
@@ -823,7 +823,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CurrentFolderChanged event of AttachmentViewer object.
+        /// Handles the CurrentFolderChanged event of attachmentViewer object.
         /// </summary>
         private void attachmentViewer_CurrentFolderChanged(object sender, EventArgs e)
         {
@@ -831,7 +831,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of AttachmentViewer object.
+        /// Handles the SelectedIndexChanged event of attachmentViewer object.
         /// </summary>
         private void attachmentViewer_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -860,7 +860,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ItemRenamed event of AttachmentViewer object.
+        /// Handles the ItemRenamed event of attachmentViewer object.
         /// </summary>
         private void attachmentViewer_ItemRenamed(object sender, EventArgs e)
         {
@@ -874,7 +874,7 @@ namespace DemosCommonCode.Pdf
         #region Items property grid
 
         /// <summary>
-        /// Handles the PropertyValueChanged event of ItemsPropertyGrid object.
+        /// Handles the PropertyValueChanged event of itemsPropertyGrid object.
         /// </summary>
         private void itemsPropertyGrid_PropertyValueChanged(object sender, PropertyValueChangedEventArgs e)
         {

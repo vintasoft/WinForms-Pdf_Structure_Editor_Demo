@@ -47,7 +47,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the Click event of CloseButton object.
+        /// Handles the Click event of closeButton object.
         /// </summary>
         private void closeButton_Click(object sender, EventArgs e)
         {
@@ -56,7 +56,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the AfterSelect event of PdfTreeView object.
+        /// Handles the AfterSelect event of pdfTreeView object.
         /// </summary>
         private void pdfTreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {

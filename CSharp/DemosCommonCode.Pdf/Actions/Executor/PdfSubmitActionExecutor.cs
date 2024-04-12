@@ -76,7 +76,7 @@ namespace DemosCommonCode.Pdf
             PdfSubmitFormAction submitFormAction = action as PdfSubmitFormAction;
             if (submitFormAction != null)
             {
-                string message = string.Format("Form submit: document must connect to '{0}'.\n Allow?", submitFormAction.Url);
+                string message = string.Format("Form submit: Document needs connection to '{0}'.\n Do you want to allow connection?", submitFormAction.Url);
                 if (MessageBox.Show(message, "Submit action", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes)
                     return false;
 
@@ -86,8 +86,8 @@ namespace DemosCommonCode.Pdf
                 if (fields.Length == 0)
                 {
                     string errorMessage = string.Format(
-                        "The interactive form fields can not be submitted to '{0}', " +
-                        "because the document does not contain the interactive form fields",
+                        "The interactive form fields can not be submitted to '{0}' " +
+                        "because the document does not contain the interactive form fields.",
                         submitFormAction.Url);
                     DemosTools.ShowErrorMessage(errorMessage);
                     return false;
@@ -197,7 +197,7 @@ namespace DemosCommonCode.Pdf
             }
             return annotationTool;
         }
-        
+
         #endregion
 
         #endregion

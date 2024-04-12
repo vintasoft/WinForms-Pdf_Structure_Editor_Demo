@@ -155,7 +155,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ActionsListBox object.
+        /// Handles the SelectedIndexChanged event of actionsListBox object.
         /// </summary>
         private void actionsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -164,7 +164,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the MouseDoubleClick event of ActionsListBox object.
+        /// Handles the MouseDoubleClick event of actionsListBox object.
         /// </summary>
         private void actionsListBox_MouseDoubleClick(object sender, MouseEventArgs e)
         {
@@ -177,7 +177,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of AddButton object.
+        /// Handles the Click event of addButton object.
         /// </summary>
         private void addButton_Click(object sender, EventArgs e)
         {
@@ -208,7 +208,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of EditButton object.
+        /// Handles the Click event of editButton object.
         /// </summary>
         private void editButton_Click(object sender, EventArgs e)
         {
@@ -217,7 +217,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveButton object.
+        /// Handles the Click event of removeButton object.
         /// </summary>
         private void removeButton_Click(object sender, EventArgs e)
         {
@@ -280,7 +280,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of MoveUpButton object.
+        /// Handles the Click event of moveUpButton object.
         /// </summary>
         private void moveUpButton_Click(object sender, EventArgs e)
         {
@@ -327,7 +327,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of MoveDownButton object.
+        /// Handles the Click event of moveDownButton object.
         /// </summary>
         private void moveDownButton_Click(object sender, EventArgs e)
         {

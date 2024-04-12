@@ -162,7 +162,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the Click event of AddButton object.
+        /// Handles the Click event of addButton object.
         /// </summary>
         private void addButton_Click(object sender, EventArgs e)
         {
@@ -171,7 +171,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveButton object.
+        /// Handles the Click event of removeButton object.
         /// </summary>
         private void removeButton_Click(object sender, EventArgs e)
         {
@@ -180,7 +180,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveAllButton object.
+        /// Handles the Click event of removeAllButton object.
         /// </summary>
         private void removeAllButton_Click(object sender, EventArgs e)
         {
@@ -191,7 +191,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -214,7 +214,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the MouseDoubleClick event of PdfPageAnnotationsControl object.
+        /// Handles the MouseDoubleClick event of pdfPageAnnotationsControl object.
         /// </summary>
         private void pdfPageAnnotationsControl_MouseDoubleClick(object sender, MouseEventArgs e)
         {
@@ -225,7 +225,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the MouseDoubleClick event of AnnotationsListBox object.
+        /// Handles the MouseDoubleClick event of annotationsListBox object.
         /// </summary>
         private void annotationsListBox_MouseDoubleClick(object sender, MouseEventArgs e)
         {
@@ -236,7 +236,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of PagesComboBox object.
+        /// Handles the SelectedIndexChanged event of pagesComboBox object.
         /// </summary>
         private void pagesComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -255,7 +255,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of AnnotationsListBox object.
+        /// Handles the SelectedIndexChanged event of annotationsListBox object.
         /// </summary>
         private void annotationsListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -264,7 +264,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of PdfPageAnnotationsControl object.
+        /// Handles the SelectedIndexChanged event of pdfPageAnnotationsControl object.
         /// </summary>
         private void pdfPageAnnotationsControl_SelectedIndexChanged(object sender, EventArgs e)
         {

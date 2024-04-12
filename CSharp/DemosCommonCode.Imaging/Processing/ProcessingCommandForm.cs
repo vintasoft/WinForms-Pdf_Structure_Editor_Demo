@@ -300,7 +300,7 @@ namespace DemosCommonCode.Imaging
         #region PRIVATE, STATIC
 
         /// <summary>
-        /// Handles the Click event of ProcessingMenuItem object.
+        /// Handles the Click event of processingMenuItem object.
         /// </summary>
         private static void processingMenuItem_Click(object sender, EventArgs e)
         {

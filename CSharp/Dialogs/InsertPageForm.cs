@@ -132,7 +132,7 @@ namespace PdfStructureEditorDemo
         #region UI
 
         /// <summary>
-        /// Handles the Click event of CancelButton object.
+        /// Handles the Click event of cancelButton object.
         /// </summary>
         private void cancelButton_Click(object sender, EventArgs e)
         {
@@ -143,7 +143,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SelectImageButton object.
+        /// Handles the Click event of selectImageButton object.
         /// </summary>
         private void selectImageButton_Click(object sender, EventArgs e)
         {
@@ -157,7 +157,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -211,7 +211,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of FilterComboBox object.
+        /// Handles the SelectedIndexChanged event of filterComboBox object.
         /// </summary>
         private void filterComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -219,7 +219,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of Jpeg2000EncoderSettingsButton object.
+        /// Handles the Click event of jpeg2000EncoderSettingsButton object.
         /// </summary>
         private void jpeg2000EncoderSettingsButton_Click(object sender, EventArgs e)
         {
@@ -233,7 +233,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of EmptyPageRadioButton object.
+        /// Handles the CheckedChanged event of emptyPageRadioButton object.
         /// </summary>
         private void emptyPageRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -244,7 +244,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of PageWithImageRadioButton object.
+        /// Handles the CheckedChanged event of pageWithImageRadioButton object.
         /// </summary>
         private void pageWithImageRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -252,7 +252,7 @@ namespace PdfStructureEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of EditSizeButton object.
+        /// Handles the Click event of editSizeButton object.
         /// </summary>
         private void editSizeButton_Click(object sender, EventArgs e)
         {

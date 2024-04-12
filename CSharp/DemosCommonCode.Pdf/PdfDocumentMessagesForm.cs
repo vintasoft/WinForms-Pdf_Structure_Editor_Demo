@@ -88,7 +88,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CellDoubleClick event of DataGridView object.
+        /// Handles the CellDoubleClick event of dataGridView object.
         /// </summary>
         private void dataGridView_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {

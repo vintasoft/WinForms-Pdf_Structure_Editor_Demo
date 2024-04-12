@@ -202,7 +202,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of DecreaseMemoryUsageToolStripMenuItem object.
+        /// Handles the CheckedChanged event of decreaseMemoryUsageToolStripMenuItem object.
         /// </summary>
         private void decreaseMemoryUsageToolStripMenuItem_CheckedChanged(
             object sender,
@@ -216,7 +216,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of FastModeToolStripMenuItem object.
+        /// Handles the CheckedChanged event of fastModeToolStripMenuItem object.
         /// </summary>
         private void fastModeToolStripMenuItem_CheckedChanged(object sender, System.EventArgs e)
         {

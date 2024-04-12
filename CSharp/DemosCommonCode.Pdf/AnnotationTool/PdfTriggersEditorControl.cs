@@ -153,7 +153,7 @@ namespace DemosCommonCode.Pdf
         #region Methods
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of TriggersListBox object.
+        /// Handles the SelectedIndexChanged event of triggersListBox object.
         /// </summary>
         private void triggersListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -179,7 +179,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the ActionChanged event of PdfActionEditorControl object.
+        /// Handles the ActionChanged event of pdfActionEditorControl object.
         /// </summary>
         private void pdfActionEditorControl_ActionChanged(object sender, EventArgs e)
         {

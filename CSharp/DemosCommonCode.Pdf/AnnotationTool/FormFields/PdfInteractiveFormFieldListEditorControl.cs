@@ -186,7 +186,7 @@ namespace DemosCommonCode.Pdf
         #region PdfInteractiveFormFieldTree
 
         /// <summary>
-        /// Handles the NodeMouseDoubleClick event of PdfInteractiveFormFieldTree object.
+        /// Handles the NodeMouseDoubleClick event of pdfInteractiveFormFieldTree object.
         /// </summary>
         private void pdfInteractiveFormFieldTree_NodeMouseDoubleClick(
             object sender,
@@ -230,7 +230,7 @@ namespace DemosCommonCode.Pdf
 
 
         /// <summary>
-        /// Handles the Click event of AddButton object.
+        /// Handles the Click event of addButton object.
         /// </summary>
         private void addButton_Click(object sender, EventArgs e)
         {
@@ -238,7 +238,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveButton object.
+        /// Handles the Click event of removeButton object.
         /// </summary>
         private void removeButton_Click(object sender, EventArgs e)
         {
@@ -257,7 +257,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveAllButton object.
+        /// Handles the Click event of removeAllButton object.
         /// </summary>
         private void removeAllButton_Click(object sender, EventArgs e)
         {

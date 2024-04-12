@@ -140,7 +140,7 @@ namespace DemosCommonCode.Pdf
         #region UI
 
         /// <summary>
-        /// Handles the Click event of OkButton object.
+        /// Handles the Click event of okButton object.
         /// </summary>
         private void okButton_Click(object sender, EventArgs e)
         {
@@ -195,7 +195,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of CancelButton object.
+        /// Handles the Click event of cancelButton object.
         /// </summary>
         private void cancelButton_Click(object sender, EventArgs e)
         {
@@ -205,7 +205,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of ColorButton object.
+        /// Handles the Click event of colorButton object.
         /// </summary>
         private void colorButton_Click(object sender, EventArgs e)
         {
@@ -214,7 +214,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of ActionRadioButton object.
+        /// Handles the CheckedChanged event of actionRadioButton object.
         /// </summary>
         private void actionRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -234,7 +234,7 @@ namespace DemosCommonCode.Pdf
         }
 
         /// <summary>
-        /// Handles the Click event of EditActionButton object.
+        /// Handles the Click event of editActionButton object.
         /// </summary>
         private void editActionButton_Click(object sender, EventArgs e)
         {
