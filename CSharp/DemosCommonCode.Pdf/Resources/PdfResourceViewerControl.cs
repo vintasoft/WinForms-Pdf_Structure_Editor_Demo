@@ -79,6 +79,7 @@ namespace DemosCommonCode.Pdf
         /// Default value is <b>null</b>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfResource Resource
         {
             get
@@ -155,6 +156,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>25, 50, 100, 200, 400</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public int[] ImageViewerAvailableZoomValues
         {
             get

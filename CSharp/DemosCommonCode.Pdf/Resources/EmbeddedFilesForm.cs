@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
@@ -82,6 +83,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// <b>True</b> if this editor can edit embedded files; otherwise, <b>false</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool CanEditEmbeddedFiles
         {
             get
@@ -101,6 +103,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the PDF document.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfDocument Document
         {
             get

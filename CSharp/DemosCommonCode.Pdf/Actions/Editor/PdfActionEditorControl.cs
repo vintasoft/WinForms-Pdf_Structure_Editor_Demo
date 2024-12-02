@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging;
@@ -91,6 +92,7 @@ namespace DemosCommonCode.Pdf
         /// Default value is <b>null</b>.
         /// </value>
         /// <exception cref="System.InvalidOperationException"></exception>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfDocument Document
         {
             get
@@ -116,6 +118,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfAction Action
         {
             get
@@ -134,6 +137,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the image collection, which is associated with PDF document.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public ImageCollection ImageCollection
         {
             get

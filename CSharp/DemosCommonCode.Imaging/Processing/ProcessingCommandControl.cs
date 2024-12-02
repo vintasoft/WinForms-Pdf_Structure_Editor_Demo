@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging.Processing;
@@ -32,6 +33,7 @@ namespace DemosCommonCode.Imaging
         /// <summary>
         /// Gets or sets the processing target.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public TTarget ProcessingTarget
         {
             get

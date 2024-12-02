@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
@@ -182,6 +183,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>true</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool ShowImageResources
         {
             get
@@ -201,6 +203,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>true</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool ShowFormResources
         {
             get
@@ -221,6 +224,7 @@ namespace DemosCommonCode.Pdf
         /// <b>true</b> - the resources can be added to the source PDF document;<br />
         /// <b>false</b> - the resources can NOT be added to the source PDF document.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool CanAddResources
         {
             get

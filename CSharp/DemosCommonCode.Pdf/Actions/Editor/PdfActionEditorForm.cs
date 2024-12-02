@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.ComponentModel;
+using System.Windows.Forms;
 
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.Pdf;
@@ -65,7 +66,7 @@ namespace DemosCommonCode.Pdf
         private PdfActionEditorForm()
         {
             InitializeComponent();
-        } 
+        }
 
         #endregion
 
@@ -81,6 +82,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfAction Action
         {
             get
@@ -96,6 +98,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the image collection, which is associated with PDF document.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public ImageCollection ImageCollection
         {
             get

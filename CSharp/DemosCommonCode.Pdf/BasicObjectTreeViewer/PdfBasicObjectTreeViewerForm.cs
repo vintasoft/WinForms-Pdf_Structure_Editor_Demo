@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf.BasicTypes;
@@ -30,6 +31,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the root object of tree viewer.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfBasicObject RootObject
         {
             get

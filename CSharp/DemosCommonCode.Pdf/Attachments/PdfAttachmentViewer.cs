@@ -139,6 +139,7 @@ namespace DemosCommonCode.Pdf
         /// Default value is <b>true</b>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool EncodeFileImmediately
         {
             get
@@ -184,6 +185,7 @@ namespace DemosCommonCode.Pdf
         /// Gets or sets the PDF document.
         /// </summary>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfDocument Document
         {
             get
@@ -218,6 +220,7 @@ namespace DemosCommonCode.Pdf
         /// Gets or sets the current folder of attachment collection.
         /// </summary>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfAttachmentFolder CurrentFolder
         {
             get

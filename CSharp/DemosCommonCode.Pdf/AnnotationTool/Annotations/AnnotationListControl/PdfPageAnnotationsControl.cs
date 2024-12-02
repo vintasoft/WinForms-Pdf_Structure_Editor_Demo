@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.ComponentModel;
+using System.Windows.Forms;
 
 using Vintasoft.Imaging;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
@@ -103,6 +104,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>null</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public virtual PdfAnnotationList AnnotationList
         {
             get
@@ -129,6 +131,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the selected annotation.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public virtual PdfAnnotation SelectedAnnotation
         {
             get

@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
@@ -48,6 +49,7 @@ namespace DemosCommonCode.Pdf.Security
         /// <summary>
         /// Gets or sets the filename of PDF document.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public string Filename
         {
             get

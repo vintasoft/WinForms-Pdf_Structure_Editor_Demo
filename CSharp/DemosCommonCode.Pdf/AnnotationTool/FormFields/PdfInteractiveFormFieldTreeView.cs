@@ -99,6 +99,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the source PDF interactive form.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfDocumentInteractiveForm InteractiveForm
         {
             get
@@ -174,6 +175,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// Default value is <b>false</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public bool GroupFormFieldsByPages
         {
             get
@@ -193,6 +195,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the selected field.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfInteractiveFormField SelectedField
         {
             get

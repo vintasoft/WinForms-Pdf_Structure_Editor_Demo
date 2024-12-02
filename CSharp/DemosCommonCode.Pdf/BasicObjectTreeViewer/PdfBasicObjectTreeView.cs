@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -48,6 +49,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the root object.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfBasicObject RootObject
         {
             get

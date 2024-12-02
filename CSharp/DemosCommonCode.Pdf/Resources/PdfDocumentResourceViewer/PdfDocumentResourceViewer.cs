@@ -198,6 +198,7 @@ namespace DemosCommonCode.Pdf
         /// <see cref="PdfImageResource"/>, <see cref="PdfFormXObjectResource"/>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public object SelectedObject
         {
             get
@@ -216,6 +217,7 @@ namespace DemosCommonCode.Pdf
         /// Gets or sets the selected PDF resource.
         /// </summary>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public PdfResource SelectedResource
         {
             get
@@ -273,6 +275,7 @@ namespace DemosCommonCode.Pdf
         /// Default value is <b>null</b>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public List<PdfResource> AdditionalResources
         {
             get

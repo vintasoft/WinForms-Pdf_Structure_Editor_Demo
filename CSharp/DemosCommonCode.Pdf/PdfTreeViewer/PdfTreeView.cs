@@ -146,6 +146,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the root object.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public object RootObject
         {
             get

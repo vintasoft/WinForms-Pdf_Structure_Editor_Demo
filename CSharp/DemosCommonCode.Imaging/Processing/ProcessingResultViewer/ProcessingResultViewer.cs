@@ -181,6 +181,7 @@ namespace DemosCommonCode.Imaging
         /// Default value is <b>null</b>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public ProcessingResult ProcessingResult
         {
             get

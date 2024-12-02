@@ -1,11 +1,10 @@
-﻿using System;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Processing;
-using Vintasoft.Imaging.Processing.Analyzers;
 
 using DemosCommonCode.Imaging;
+using System.ComponentModel;
 
 
 namespace DemosCommonCode.Pdf
@@ -64,6 +63,7 @@ namespace DemosCommonCode.Pdf
         /// <value>
         /// <b>True</b> if command viewer must be updated when property of selected command is changed; otherwise, <b>false</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool UpdateCommandViewerWhenPropertyChanged
         {
             get

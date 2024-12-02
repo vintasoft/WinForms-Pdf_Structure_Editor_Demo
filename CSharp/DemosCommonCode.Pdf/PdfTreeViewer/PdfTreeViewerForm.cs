@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace DemosCommonCode.Pdf
@@ -28,6 +29,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the root object of PDF tree viewer.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public object RootObject
         {
             get

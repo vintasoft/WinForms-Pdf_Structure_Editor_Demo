@@ -61,6 +61,7 @@ namespace DemosCommonCode.Imaging
         /// Default value is <b>null</b>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public IProcessingCommandInfo[] ProcessingCommands
         {
             get
@@ -89,6 +90,7 @@ namespace DemosCommonCode.Imaging
         /// Gets or sets the selected processing command.
         /// </summary>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public IProcessingCommandInfo SelectedProcessingCommand
         {
             get
@@ -111,6 +113,7 @@ namespace DemosCommonCode.Imaging
         /// analyzer result comparers and etc; otherwise, <b>false</b>.
         /// Default value is <b>false</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool StorePredicateResults
         {
             get
@@ -132,6 +135,7 @@ namespace DemosCommonCode.Imaging
         /// <b>True</b> - exception must be thrown if important trigger is activated; otherwise, <b>false</b>.
         /// Default value is <b>false</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool ThrowTriggerActivatedException
         {
             get
@@ -153,6 +157,7 @@ namespace DemosCommonCode.Imaging
         /// <b>True</b> - command viewer must be updated when property of selected command is changed; otherwise, <b>false</b>.
         /// Default value is <b>false</b>.
         /// </value>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool UpdateCommandViewerWhenPropertyChanged
         {
             get

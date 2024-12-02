@@ -1,10 +1,10 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
-using Vintasoft.Imaging.Pdf;
 
 
 namespace DemosCommonCode.Pdf
@@ -102,6 +102,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the tree node that contains actions.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfTreeNodeBase TreeNode
         {
             get

@@ -29,8 +29,6 @@ namespace PdfStructureEditorDemo
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Vintasoft.Imaging.Utils.WinFormsSystemClipboard winFormsSystemClipboard4 = new Vintasoft.Imaging.Utils.WinFormsSystemClipboard();
-            Vintasoft.Imaging.Codecs.Decoders.RenderingSettings renderingSettings4 = new Vintasoft.Imaging.Codecs.Decoders.RenderingSettings();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.mainMenu = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,7 +42,6 @@ namespace PdfStructureEditorDemo
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.convertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.optimizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,19 +53,27 @@ namespace PdfStructureEditorDemo
             this.documentInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.documentVerificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA1bVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA2bVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA3bVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pdfA1aVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA1bVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
             this.pdfA2aVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA2bVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA2uVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
             this.pdfA3aVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA3bVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA3uVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.documentConversionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA1bConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA2bConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA3bConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pdfA1aConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA1bConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
             this.pdfA2aConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA2bConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA2uConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
             this.pdfA3aConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA3bConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfA3uConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
             this.securityPropertiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.securitySettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -132,14 +137,6 @@ namespace PdfStructureEditorDemo
             this.savePdfFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.openImageFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.saveImageFileDialog = new System.Windows.Forms.SaveFileDialog();
-            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator16 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator18 = new System.Windows.Forms.ToolStripSeparator();
-            this.pdfA3uVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA2uVerifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA3uConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pdfA2uConverterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -182,7 +179,6 @@ namespace PdfStructureEditorDemo
             this.saveAsToolStripMenuItem,
             this.toolStripSeparator2,
             this.convertToolStripMenuItem,
-            this.optimizeToolStripMenuItem,
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -257,13 +253,6 @@ namespace PdfStructureEditorDemo
             this.convertToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.convertToolStripMenuItem.Text = "Pack / Convert Format...";
             this.convertToolStripMenuItem.Click += new System.EventHandler(this.packToolStripMenuItem_Click);
-            // 
-            // optimizeToolStripMenuItem
-            // 
-            this.optimizeToolStripMenuItem.Name = "optimizeToolStripMenuItem";
-            this.optimizeToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.optimizeToolStripMenuItem.Text = "Optimize...";
-            this.optimizeToolStripMenuItem.Click += new System.EventHandler(this.optimizeToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -377,47 +366,71 @@ namespace PdfStructureEditorDemo
             this.documentVerificationToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
             this.documentVerificationToolStripMenuItem.Text = "Verification";
             // 
-            // pdfA1bVerifierToolStripMenuItem
-            // 
-            this.pdfA1bVerifierToolStripMenuItem.Name = "pdfA1bVerifierToolStripMenuItem";
-            this.pdfA1bVerifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pdfA1bVerifierToolStripMenuItem.Text = "PDF/A-1b Verifier...";
-            this.pdfA1bVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA1bVerifierToolStripMenuItem_Click);
-            // 
-            // pdfA2bVerifierToolStripMenuItem
-            // 
-            this.pdfA2bVerifierToolStripMenuItem.Name = "pdfA2bVerifierToolStripMenuItem";
-            this.pdfA2bVerifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pdfA2bVerifierToolStripMenuItem.Text = "PDF/A-2b Verifier...";
-            this.pdfA2bVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA2bVerifierToolStripMenuItem_Click);
-            // 
-            // pdfA3bVerifierToolStripMenuItem
-            // 
-            this.pdfA3bVerifierToolStripMenuItem.Name = "pdfA3bVerifierToolStripMenuItem";
-            this.pdfA3bVerifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pdfA3bVerifierToolStripMenuItem.Text = "PDF/A-3b Verifier...";
-            this.pdfA3bVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA3bVerifierToolStripMenuItem_Click);
-            // 
             // pdfA1aVerifierToolStripMenuItem
             // 
             this.pdfA1aVerifierToolStripMenuItem.Name = "pdfA1aVerifierToolStripMenuItem";
-            this.pdfA1aVerifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pdfA1aVerifierToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.pdfA1aVerifierToolStripMenuItem.Text = "PDF/A-1a Verifier...";
             this.pdfA1aVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA1aVerifierToolStripMenuItem_Click);
+            // 
+            // pdfA1bVerifierToolStripMenuItem
+            // 
+            this.pdfA1bVerifierToolStripMenuItem.Name = "pdfA1bVerifierToolStripMenuItem";
+            this.pdfA1bVerifierToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.pdfA1bVerifierToolStripMenuItem.Text = "PDF/A-1b Verifier...";
+            this.pdfA1bVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA1bVerifierToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator15
+            // 
+            this.toolStripSeparator15.Name = "toolStripSeparator15";
+            this.toolStripSeparator15.Size = new System.Drawing.Size(171, 6);
             // 
             // pdfA2aVerifierToolStripMenuItem
             // 
             this.pdfA2aVerifierToolStripMenuItem.Name = "pdfA2aVerifierToolStripMenuItem";
-            this.pdfA2aVerifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pdfA2aVerifierToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.pdfA2aVerifierToolStripMenuItem.Text = "PDF/A-2a Verifier...";
             this.pdfA2aVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA2aVerifierToolStripMenuItem_Click);
+            // 
+            // pdfA2bVerifierToolStripMenuItem
+            // 
+            this.pdfA2bVerifierToolStripMenuItem.Name = "pdfA2bVerifierToolStripMenuItem";
+            this.pdfA2bVerifierToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.pdfA2bVerifierToolStripMenuItem.Text = "PDF/A-2b Verifier...";
+            this.pdfA2bVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA2bVerifierToolStripMenuItem_Click);
+            // 
+            // pdfA2uVerifierToolStripMenuItem
+            // 
+            this.pdfA2uVerifierToolStripMenuItem.Name = "pdfA2uVerifierToolStripMenuItem";
+            this.pdfA2uVerifierToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.pdfA2uVerifierToolStripMenuItem.Text = "PDF/A-2u Verifier...";
+            this.pdfA2uVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA2uVerifierToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator16
+            // 
+            this.toolStripSeparator16.Name = "toolStripSeparator16";
+            this.toolStripSeparator16.Size = new System.Drawing.Size(171, 6);
             // 
             // pdfA3aVerifierToolStripMenuItem
             // 
             this.pdfA3aVerifierToolStripMenuItem.Name = "pdfA3aVerifierToolStripMenuItem";
-            this.pdfA3aVerifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pdfA3aVerifierToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.pdfA3aVerifierToolStripMenuItem.Text = "PDF/A-3a Verifier...";
             this.pdfA3aVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA3aVerifierToolStripMenuItem_Click);
+            // 
+            // pdfA3bVerifierToolStripMenuItem
+            // 
+            this.pdfA3bVerifierToolStripMenuItem.Name = "pdfA3bVerifierToolStripMenuItem";
+            this.pdfA3bVerifierToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.pdfA3bVerifierToolStripMenuItem.Text = "PDF/A-3b Verifier...";
+            this.pdfA3bVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA3bVerifierToolStripMenuItem_Click);
+            // 
+            // pdfA3uVerifierToolStripMenuItem
+            // 
+            this.pdfA3uVerifierToolStripMenuItem.Name = "pdfA3uVerifierToolStripMenuItem";
+            this.pdfA3uVerifierToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.pdfA3uVerifierToolStripMenuItem.Text = "PDF/A-3u Verifier...";
+            this.pdfA3uVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA3uVerifierToolStripMenuItem_Click);
             // 
             // documentConversionToolStripMenuItem
             // 
@@ -436,6 +449,13 @@ namespace PdfStructureEditorDemo
             this.documentConversionToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
             this.documentConversionToolStripMenuItem.Text = "Conversion";
             // 
+            // pdfA1aConverterToolStripMenuItem
+            // 
+            this.pdfA1aConverterToolStripMenuItem.Name = "pdfA1aConverterToolStripMenuItem";
+            this.pdfA1aConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.pdfA1aConverterToolStripMenuItem.Text = "PDF/A-1a Converter...";
+            this.pdfA1aConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA1aConverterToolStripMenuItem_Click);
+            // 
             // pdfA1bConverterToolStripMenuItem
             // 
             this.pdfA1bConverterToolStripMenuItem.Name = "pdfA1bConverterToolStripMenuItem";
@@ -443,26 +463,10 @@ namespace PdfStructureEditorDemo
             this.pdfA1bConverterToolStripMenuItem.Text = "PDF/A-1b Converter...";
             this.pdfA1bConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA1bConverterToolStripMenuItem_Click);
             // 
-            // pdfA2bConverterToolStripMenuItem
+            // toolStripSeparator17
             // 
-            this.pdfA2bConverterToolStripMenuItem.Name = "pdfA2bConverterToolStripMenuItem";
-            this.pdfA2bConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.pdfA2bConverterToolStripMenuItem.Text = "PDF/A-2b Converter...";
-            this.pdfA2bConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA2bConverterToolStripMenuItem_Click);
-            // 
-            // pdfA3bConverterToolStripMenuItem
-            // 
-            this.pdfA3bConverterToolStripMenuItem.Name = "pdfA3bConverterToolStripMenuItem";
-            this.pdfA3bConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.pdfA3bConverterToolStripMenuItem.Text = "PDF/A-3b Converter...";
-            this.pdfA3bConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA3bConverterToolStripMenuItem_Click);
-            // 
-            // pdfA1aConverterToolStripMenuItem
-            // 
-            this.pdfA1aConverterToolStripMenuItem.Name = "pdfA1aConverterToolStripMenuItem";
-            this.pdfA1aConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.pdfA1aConverterToolStripMenuItem.Text = "PDF/A-1a Converter...";
-            this.pdfA1aConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA1aConverterToolStripMenuItem_Click);
+            this.toolStripSeparator17.Name = "toolStripSeparator17";
+            this.toolStripSeparator17.Size = new System.Drawing.Size(187, 6);
             // 
             // pdfA2aConverterToolStripMenuItem
             // 
@@ -471,12 +475,45 @@ namespace PdfStructureEditorDemo
             this.pdfA2aConverterToolStripMenuItem.Text = "PDF/A-2a Converter...";
             this.pdfA2aConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA2aConverterToolStripMenuItem_Click);
             // 
+            // pdfA2bConverterToolStripMenuItem
+            // 
+            this.pdfA2bConverterToolStripMenuItem.Name = "pdfA2bConverterToolStripMenuItem";
+            this.pdfA2bConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.pdfA2bConverterToolStripMenuItem.Text = "PDF/A-2b Converter...";
+            this.pdfA2bConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA2bConverterToolStripMenuItem_Click);
+            // 
+            // pdfA2uConverterToolStripMenuItem
+            // 
+            this.pdfA2uConverterToolStripMenuItem.Name = "pdfA2uConverterToolStripMenuItem";
+            this.pdfA2uConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.pdfA2uConverterToolStripMenuItem.Text = "PDF/A-2u Converter...";
+            this.pdfA2uConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA2uConverterToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator18
+            // 
+            this.toolStripSeparator18.Name = "toolStripSeparator18";
+            this.toolStripSeparator18.Size = new System.Drawing.Size(187, 6);
+            // 
             // pdfA3aConverterToolStripMenuItem
             // 
             this.pdfA3aConverterToolStripMenuItem.Name = "pdfA3aConverterToolStripMenuItem";
             this.pdfA3aConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.pdfA3aConverterToolStripMenuItem.Text = "PDF/A-3a Converter...";
             this.pdfA3aConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA3aConverterToolStripMenuItem_Click);
+            // 
+            // pdfA3bConverterToolStripMenuItem
+            // 
+            this.pdfA3bConverterToolStripMenuItem.Name = "pdfA3bConverterToolStripMenuItem";
+            this.pdfA3bConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.pdfA3bConverterToolStripMenuItem.Text = "PDF/A-3b Converter...";
+            this.pdfA3bConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA3bConverterToolStripMenuItem_Click);
+            // 
+            // pdfA3uConverterToolStripMenuItem
+            // 
+            this.pdfA3uConverterToolStripMenuItem.Name = "pdfA3uConverterToolStripMenuItem";
+            this.pdfA3uConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.pdfA3uConverterToolStripMenuItem.Text = "PDF/A-3u Converter...";
+            this.pdfA3uConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA3uConverterToolStripMenuItem_Click);
             // 
             // toolStripSeparator14
             // 
@@ -871,11 +908,7 @@ namespace PdfStructureEditorDemo
             // 
             // rendererImage
             // 
-            this.rendererImage.Clipboard = winFormsSystemClipboard4;
             this.rendererImage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rendererImage.ImageRenderingSettings = renderingSettings4;
-            this.rendererImage.ImageRotationAngle = 0;
-            this.rendererImage.IsZoomingEnabled = true;
             this.rendererImage.Location = new System.Drawing.Point(0, 0);
             this.rendererImage.Name = "rendererImage";
             this.rendererImage.ShortcutCut = System.Windows.Forms.Shortcut.None;
@@ -954,18 +987,16 @@ namespace PdfStructureEditorDemo
             this.viewerToolStrip.AssociatedZoomTrackBar = null;
             this.viewerToolStrip.CanPrint = false;
             this.viewerToolStrip.CanSaveFile = false;
+            this.viewerToolStrip.CaptureFromCameraButtonEnabled = true;
             this.viewerToolStrip.Dock = System.Windows.Forms.DockStyle.None;
             this.viewerToolStrip.ImageViewer = this.rendererImage;
-            this.viewerToolStrip.ScanButtonEnabled = true;
             this.viewerToolStrip.Location = new System.Drawing.Point(0, 0);
             this.viewerToolStrip.Name = "viewerToolStrip";
-            this.viewerToolStrip.PageCount = 0;
             this.viewerToolStrip.PrintButtonEnabled = true;
-            this.viewerToolStrip.SaveButtonEnabled = true;
+            this.viewerToolStrip.ScanButtonEnabled = true;
             this.viewerToolStrip.Size = new System.Drawing.Size(310, 25);
             this.viewerToolStrip.TabIndex = 0;
             this.viewerToolStrip.Text = "vsImageViewerToolStrip1";
-            this.viewerToolStrip.UseImageViewerImages = false;
             this.viewerToolStrip.OpenFile += new System.EventHandler(this.openToolStripMenuItem_Click);
             this.viewerToolStrip.PageIndexChanged += new System.EventHandler<DemosCommonCode.Imaging.PageIndexChangedEventArgs>(this.viewerToolStrip1_PageIndexChanged);
             // 
@@ -983,54 +1014,6 @@ namespace PdfStructureEditorDemo
             this.saveImageFileDialog.DefaultExt = "png";
             this.saveImageFileDialog.Filter = "PNG|*.png";
             this.saveImageFileDialog.FilterIndex = 2;
-            // 
-            // toolStripSeparator15
-            // 
-            this.toolStripSeparator15.Name = "toolStripSeparator15";
-            this.toolStripSeparator15.Size = new System.Drawing.Size(177, 6);
-            // 
-            // toolStripSeparator16
-            // 
-            this.toolStripSeparator16.Name = "toolStripSeparator16";
-            this.toolStripSeparator16.Size = new System.Drawing.Size(177, 6);
-            // 
-            // toolStripSeparator17
-            // 
-            this.toolStripSeparator17.Name = "toolStripSeparator17";
-            this.toolStripSeparator17.Size = new System.Drawing.Size(187, 6);
-            // 
-            // toolStripSeparator18
-            // 
-            this.toolStripSeparator18.Name = "toolStripSeparator18";
-            this.toolStripSeparator18.Size = new System.Drawing.Size(187, 6);
-            // 
-            // pDFA3uVerifierToolStripMenuItem
-            // 
-            this.pdfA3uVerifierToolStripMenuItem.Name = "pdfA3uVerifierToolStripMenuItem";
-            this.pdfA3uVerifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pdfA3uVerifierToolStripMenuItem.Text = "PDF/A-3u Verifier...";
-            this.pdfA3uVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA3uVerifierToolStripMenuItem_Click);
-            // 
-            // pDFA2uVerifierToolStripMenuItem
-            // 
-            this.pdfA2uVerifierToolStripMenuItem.Name = "pdfA2uVerifierToolStripMenuItem";
-            this.pdfA2uVerifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pdfA2uVerifierToolStripMenuItem.Text = "PDF/A-2u Verifier...";
-            this.pdfA2uVerifierToolStripMenuItem.Click += new System.EventHandler(this.pdfA2uVerifierToolStripMenuItem_Click);
-            // 
-            // pDFA3uConverterToolStripMenuItem
-            // 
-            this.pdfA3uConverterToolStripMenuItem.Name = "pdfA3uConverterToolStripMenuItem";
-            this.pdfA3uConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.pdfA3uConverterToolStripMenuItem.Text = "PDF/A-3u Converter...";
-            this.pdfA3uConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA3uConverterToolStripMenuItem_Click);
-            // 
-            // pDFA2uConverterToolStripMenuItem
-            // 
-            this.pdfA2uConverterToolStripMenuItem.Name = "pdfA2uConverterToolStripMenuItem";
-            this.pdfA2uConverterToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.pdfA2uConverterToolStripMenuItem.Text = "PDF/A-2u Converter...";
-            this.pdfA2uConverterToolStripMenuItem.Click += new System.EventHandler(this.pdfA2uConverterToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -1109,7 +1092,6 @@ namespace PdfStructureEditorDemo
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem documentResourcesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openRWtoolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem optimizeToolStripMenuItem;
         private Vintasoft.Imaging.UI.ImageViewer rendererImage;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;

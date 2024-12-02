@@ -2,8 +2,7 @@
 
 using System;
 using System.Collections.Generic;
-
-using DemosCommonCode.Imaging;
+using System.ComponentModel;
 
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
@@ -37,6 +36,7 @@ namespace DemosCommonCode.Imaging
         /// <summary>
         /// Gets or sets the type of the processing command tree.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public ProcessingResultTreeType ViewType
         {
             get

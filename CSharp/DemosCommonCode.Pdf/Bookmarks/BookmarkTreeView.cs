@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -35,6 +36,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the action executor.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfActionExecutorBase ActionExecutor
         {
             get
@@ -51,6 +53,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the source PDF document.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public PdfDocument Document
         {
             get
@@ -73,6 +76,7 @@ namespace DemosCommonCode.Pdf
         /// <summary>
         /// Gets or sets the image viewer.
         /// </summary>
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public ImageViewerBase Viewer
         {
             get

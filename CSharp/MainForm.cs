@@ -422,44 +422,7 @@ namespace PdfStructureEditorDemo
             }
 
             IsPdfFileSaving = false;
-        }
-
-        /// <summary>
-        /// Handles the Click event of optimizeToolStripMenuItem object.
-        /// </summary>
-        private void optimizeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            IsPdfFileSaving = true;
-
-            // show optimize dialog
-            using (OptimizeForm dlg = new OptimizeForm(_document.Format, _document.EncryptionSystem))
-            {
-                if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    if (SavePdfDocumentAs() == System.Windows.Forms.DialogResult.OK)
-                    {
-                        try
-                        {
-                            // optimize PDF document
-                            ClearRuntimeMessages();
-                            long oldSize = _document.StreamLength;
-                            StartAction("Optimize", true);
-                            PdfOptimizeSettings settings = new PdfOptimizeSettings(dlg.FilterForColorImages, dlg.FilterForBWImages, dlg.FilterForData);
-                            _document.Optimize(dlg.Format, dlg.NewEncryptionSettings, settings);
-                            EndAction();
-                            ShowRuntimeMessages();
-                            MessageBox.Show(string.Format("{0} -> {1} bytes", oldSize, _document.StreamLength), "Optimize results");
-                        }
-                        catch (Exception ex)
-                        {
-                            DemosTools.ShowErrorMessage(ex);
-                        }
-                    }
-                }
-            }
-
-            IsPdfFileSaving = false;
-        }
+        }       
 
 
         /// <summary>
@@ -1342,7 +1305,6 @@ namespace PdfStructureEditorDemo
             saveAsToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileEmpty;
             closeToolStripMenuItem.Enabled = isPdfFileLoaded;
             convertToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileEmpty;
-            optimizeToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileEmpty;
             securitySettingsToolStripMenuItem.Enabled = isPdfFileLoaded && !isPdfFileReadOnlyMode &&
                                                         !isPdfFileNameEmpty;
 

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
+
 using Vintasoft.Imaging.Pdf.Processing.PdfA;
 using Vintasoft.Imaging.Processing;
 using Vintasoft.Imaging.Processing.Analyzers;
@@ -213,6 +214,7 @@ namespace DemosCommonCode.Imaging
         /// Default value is <b>null</b>.
         /// </value>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public IProcessingCommandInfo[] ProcessingCommands
         {
             get
@@ -236,6 +238,7 @@ namespace DemosCommonCode.Imaging
         /// Gets or sets the selected processing command.
         /// </summary>
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public IProcessingCommandInfo SelectedProcessingCommand
         {
             get
