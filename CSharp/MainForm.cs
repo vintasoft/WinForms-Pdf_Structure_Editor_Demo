@@ -84,6 +84,8 @@ namespace PdfStructureEditorDemo
 
             InitializeComponent();
 
+            viewerToolStrip.UseImageViewerImages = false;
+
             Jbig2AssemblyLoader.Load();
             Jpeg2000AssemblyLoader.Load();
 
