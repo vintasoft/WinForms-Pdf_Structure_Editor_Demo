@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 
 
-namespace DemosCommonCode
+namespace CommonCode
 {
     /// <summary>
     /// Represents an editor form for item set.

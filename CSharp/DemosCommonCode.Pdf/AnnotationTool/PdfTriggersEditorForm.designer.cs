@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     partial class PdfTriggersEditorForm
     {
@@ -28,7 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
-            this.pdfTriggersEditorControl = new DemosCommonCode.Pdf.PdfTriggersEditorControl();
+            this.pdfTriggersEditorControl = new CommonCode.Pdf.PdfTriggersEditorControl();
             this.okButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -70,7 +70,7 @@ namespace DemosCommonCode.Pdf
 
         #endregion
 
-        private global::DemosCommonCode.Pdf.PdfTriggersEditorControl pdfTriggersEditorControl;
+        private global::CommonCode.Pdf.PdfTriggersEditorControl pdfTriggersEditorControl;
         private System.Windows.Forms.Button okButton;
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 
-namespace DemosCommonCode
+namespace CommonCode
 {
     /// <summary>
     /// Represents controller of progress visualization of an action.

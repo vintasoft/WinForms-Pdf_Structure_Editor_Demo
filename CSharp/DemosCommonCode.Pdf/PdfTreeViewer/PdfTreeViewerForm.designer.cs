@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     partial class PdfTreeViewerForm
     {
@@ -32,7 +32,7 @@ namespace DemosCommonCode.Pdf
             this.closeButton = new System.Windows.Forms.Button();
             this.pdfTreeNodePropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.propertyGridGroupBox = new System.Windows.Forms.GroupBox();
-            this.pdfTreeView = new DemosCommonCode.Pdf.PdfTreeView();
+            this.pdfTreeView = new CommonCode.Pdf.PdfTreeView();
             this.propertyGridGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 

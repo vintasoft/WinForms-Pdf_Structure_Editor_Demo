@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf.Content.TextExtraction;
 using Vintasoft.Imaging.Pdf.Tree.Fonts;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to view fonts of PDF document.

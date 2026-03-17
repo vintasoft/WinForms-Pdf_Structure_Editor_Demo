@@ -1,4 +1,4 @@
-﻿namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     /// <summary>
     /// Specifies available view types for PDF resource tree.

@@ -1,4 +1,4 @@
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -7,9 +7,9 @@ using Vintasoft.Imaging.Pdf.JavaScriptApi;
 using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.UI;
 
-using DemosCommonCode.Pdf.JavaScript;
+using CommonCode.Pdf.JavaScript;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A tree view that allows to view bookmarks of PDF document.

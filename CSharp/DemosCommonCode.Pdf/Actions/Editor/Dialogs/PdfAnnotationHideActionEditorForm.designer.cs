@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     partial class PdfAnnotationHideActionEditorForm
     {
@@ -32,7 +32,7 @@ namespace DemosCommonCode.Pdf
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pdfPageAnnotationsControl = new DemosCommonCode.Pdf.PdfPageAnnotationsControl();
+            this.pdfPageAnnotationsControl = new CommonCode.Pdf.PdfPageAnnotationsControl();
             this.annotationsListBox = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.removeAllButton = new System.Windows.Forms.Button();

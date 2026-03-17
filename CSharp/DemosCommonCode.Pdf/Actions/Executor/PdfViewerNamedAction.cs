@@ -1,5 +1,5 @@
 ﻿
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Contains information about PDF viewer named action.

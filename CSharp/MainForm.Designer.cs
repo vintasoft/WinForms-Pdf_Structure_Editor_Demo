@@ -1,4 +1,4 @@
-namespace PdfStructureEditorDemo
+﻿namespace PdfStructureEditorDemo
 {
     partial class MainForm
     {
@@ -122,7 +122,7 @@ namespace PdfStructureEditorDemo
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.documentBookmarks = new DemosCommonCode.Pdf.BookmarkTreeViewEditor();
+            this.documentBookmarks = new CommonCode.Pdf.BookmarkTreeViewEditor();
             this.panel4 = new System.Windows.Forms.Panel();
             this.rendererImage = new Vintasoft.Imaging.UI.ImageViewer();
             this.panel10 = new System.Windows.Forms.Panel();
@@ -132,7 +132,7 @@ namespace PdfStructureEditorDemo
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.buttonShowRuntimeMessages = new System.Windows.Forms.ToolStripSplitButton();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.viewerToolStrip = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.viewerToolStrip = new CommonCode.Imaging.ImageViewerToolStrip();
             this.openPdfFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.savePdfFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.openImageFileDialog = new System.Windows.Forms.OpenFileDialog();
@@ -998,7 +998,7 @@ namespace PdfStructureEditorDemo
             this.viewerToolStrip.TabIndex = 0;
             this.viewerToolStrip.Text = "vsImageViewerToolStrip1";
             this.viewerToolStrip.OpenFile += new System.EventHandler(this.openToolStripMenuItem_Click);
-            this.viewerToolStrip.PageIndexChanged += new System.EventHandler<DemosCommonCode.Imaging.PageIndexChangedEventArgs>(this.viewerToolStrip1_PageIndexChanged);
+            this.viewerToolStrip.PageIndexChanged += new System.EventHandler<CommonCode.Imaging.PageIndexChangedEventArgs>(this.viewerToolStrip1_PageIndexChanged);
             // 
             // openPdfFileDialog
             // 
@@ -1101,7 +1101,7 @@ namespace PdfStructureEditorDemo
         private System.Windows.Forms.ToolStripMenuItem viewPageThumbnailsToolStripMenuItem;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
-        private DemosCommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
+        private CommonCode.Imaging.ImageViewerToolStrip viewerToolStrip;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.StatusStrip statusStrip1;
@@ -1113,7 +1113,7 @@ namespace PdfStructureEditorDemo
         private System.Windows.Forms.ToolStripMenuItem securityPropertiesToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
         private System.Windows.Forms.ToolStripMenuItem fontsToolStripMenuItem;
-        private DemosCommonCode.Pdf.BookmarkTreeViewEditor documentBookmarks;
+        private CommonCode.Pdf.BookmarkTreeViewEditor documentBookmarks;
         private System.Windows.Forms.ToolStripMenuItem imageViewerSettingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem documentActionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;

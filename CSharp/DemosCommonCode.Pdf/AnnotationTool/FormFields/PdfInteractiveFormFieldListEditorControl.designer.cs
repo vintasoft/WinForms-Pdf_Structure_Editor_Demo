@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     partial class PdfInteractiveFormFieldListEditorControl
     {
@@ -35,7 +35,7 @@ namespace DemosCommonCode.Pdf
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.selectedFieldsListBox = new System.Windows.Forms.ListBox();
-            this.pdfInteractiveFormFieldTree = new DemosCommonCode.Pdf.PdfInteractiveFormFieldTree();
+            this.pdfInteractiveFormFieldTree = new CommonCode.Pdf.PdfInteractiveFormFieldTree();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();

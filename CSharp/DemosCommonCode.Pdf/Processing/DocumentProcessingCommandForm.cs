@@ -3,11 +3,11 @@
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Processing;
 
-using DemosCommonCode.Imaging;
+using CommonCode.Imaging;
 using System.ComponentModel;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to view the PDF document processing commands.

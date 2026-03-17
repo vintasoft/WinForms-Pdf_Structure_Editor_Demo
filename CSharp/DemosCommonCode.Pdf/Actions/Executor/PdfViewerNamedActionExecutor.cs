@@ -3,7 +3,7 @@ using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.Pdf.UI;
 using Vintasoft.Imaging.UI;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Executor of "Named" action that performs execution of named viewer action in image viewer.

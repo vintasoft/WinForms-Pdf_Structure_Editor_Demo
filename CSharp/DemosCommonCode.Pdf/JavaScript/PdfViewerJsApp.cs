@@ -8,7 +8,7 @@ using Vintasoft.Imaging.Print;
 using Vintasoft.Imaging.UI;
 using Vintasoft.Imaging.Pdf.UI.JavaScript;
 
-namespace DemosCommonCode.Pdf.JavaScript
+namespace CommonCode.Pdf.JavaScript
 {
     /// <summary>
     /// An JavaScript API "app" object that represents the WinForms PDF Viewer application. 

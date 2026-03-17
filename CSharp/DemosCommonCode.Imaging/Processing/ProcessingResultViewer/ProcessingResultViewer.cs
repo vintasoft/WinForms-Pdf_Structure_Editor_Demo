@@ -9,7 +9,7 @@ using Vintasoft.Imaging.Processing;
 using Vintasoft.Imaging.Processing.Analyzers;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A control that allows to view the execution result of the processing commands.

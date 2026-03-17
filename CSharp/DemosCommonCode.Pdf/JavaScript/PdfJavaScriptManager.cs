@@ -1,4 +1,4 @@
-﻿namespace DemosCommonCode.Pdf.JavaScript
+﻿namespace CommonCode.Pdf.JavaScript
 {
     /// <summary>
     /// PDF JavaScript engine manager.

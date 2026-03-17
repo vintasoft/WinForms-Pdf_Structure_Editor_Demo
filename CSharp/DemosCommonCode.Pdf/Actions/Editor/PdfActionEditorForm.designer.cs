@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     partial class PdfActionEditorForm
     {
@@ -28,7 +28,7 @@ namespace DemosCommonCode.Pdf
         /// </summary>
         private void InitializeComponent()
         {
-            this.pdfActionEditorControl1 = new DemosCommonCode.Pdf.PdfActionEditorControl();
+            this.pdfActionEditorControl1 = new CommonCode.Pdf.PdfActionEditorControl();
             this.okButton = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();

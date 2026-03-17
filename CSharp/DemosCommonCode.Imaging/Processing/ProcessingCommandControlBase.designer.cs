@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Imaging
+﻿namespace CommonCode.Imaging
 {
     partial class ProcessingCommandControlBase
     {
@@ -34,13 +34,13 @@ namespace DemosCommonCode.Imaging
             this.viewProcessingTreeStructureCheckBox = new System.Windows.Forms.CheckBox();
             this.showResultsAfretExecuteCheckBox = new System.Windows.Forms.CheckBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.processingCommandViewer = new DemosCommonCode.Imaging.ProcessingCommandViewer();
+            this.processingCommandViewer = new CommonCode.Imaging.ProcessingCommandViewer();
             this.propertyGridGroupBox = new System.Windows.Forms.GroupBox();
             this.propertyGrid = new System.Windows.Forms.PropertyGrid();
             this.executeButton = new System.Windows.Forms.Button();
             this.resultTabPage = new System.Windows.Forms.TabPage();
             this.resultGroupBox = new System.Windows.Forms.GroupBox();
-            this.processingResultViewer = new DemosCommonCode.Imaging.ProcessingResultViewer();
+            this.processingResultViewer = new CommonCode.Imaging.ProcessingResultViewer();
             this.mainTabControl.SuspendLayout();
             this.processingTabPage.SuspendLayout();
             this.splitContainer1.Panel1.SuspendLayout();

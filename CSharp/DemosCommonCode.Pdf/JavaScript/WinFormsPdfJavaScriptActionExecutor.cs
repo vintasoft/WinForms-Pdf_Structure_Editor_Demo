@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Pdf.JavaScriptApi;
 using Vintasoft.Imaging.Pdf.JavaScript;
 
-namespace DemosCommonCode.Pdf.JavaScript
+namespace CommonCode.Pdf.JavaScript
 {
     /// <summary>
     /// Executor of JavaScript actions that interprets JavaScript code.

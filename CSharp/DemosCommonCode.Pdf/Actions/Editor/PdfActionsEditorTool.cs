@@ -4,7 +4,7 @@ using Vintasoft.Imaging;
 using Vintasoft.Imaging.Pdf.Tree;
 using Vintasoft.Imaging.Pdf.Tree.InteractiveForms;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Contains common static functions for editing of PDF actions.

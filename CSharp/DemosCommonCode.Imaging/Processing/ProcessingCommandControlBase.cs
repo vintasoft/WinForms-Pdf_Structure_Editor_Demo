@@ -6,7 +6,7 @@ using Vintasoft.Imaging.Processing;
 using Vintasoft.Imaging.Utils;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A base control that allows to view the processing commands.

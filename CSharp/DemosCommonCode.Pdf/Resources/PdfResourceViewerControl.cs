@@ -14,7 +14,7 @@ using Vintasoft.Imaging.Pdf.UI;
 using Vintasoft.Imaging.UI;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to view PDF resource.

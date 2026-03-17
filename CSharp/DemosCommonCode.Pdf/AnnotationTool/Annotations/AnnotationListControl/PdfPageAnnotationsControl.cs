@@ -5,7 +5,7 @@ using Vintasoft.Imaging;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A control that allows to show information about annotations of PDF Page.

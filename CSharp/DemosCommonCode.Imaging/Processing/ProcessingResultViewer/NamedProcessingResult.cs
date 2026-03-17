@@ -3,7 +3,7 @@
 using Vintasoft.Imaging.Processing;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// Stores a named result of execution of a composite processing command.

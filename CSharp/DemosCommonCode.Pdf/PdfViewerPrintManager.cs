@@ -6,9 +6,9 @@ using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Print;
 using Vintasoft.Imaging.UI;
 
-using DemosCommonCode.Imaging;
+using CommonCode.Imaging;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Print manager of a PDF image viewer.

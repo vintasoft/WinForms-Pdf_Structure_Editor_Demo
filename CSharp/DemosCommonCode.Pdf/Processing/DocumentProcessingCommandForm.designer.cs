@@ -1,4 +1,6 @@
-namespace DemosCommonCode.Pdf
+﻿using CommonCode.Imaging;
+
+namespace CommonCode.Pdf
 {
     partial class DocumentProcessingCommandForm
     {
@@ -36,7 +38,7 @@ namespace DemosCommonCode.Pdf
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.decreaseMemoryUsageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fastModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.documentProcessingCommandControl = new DemosCommonCode.Imaging.DocumentProcessingCommandControl();
+            this.documentProcessingCommandControl = new CommonCode.Imaging.DocumentProcessingCommandControl();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,7 +122,7 @@ namespace DemosCommonCode.Pdf
             this.documentProcessingCommandControl.ProcessingTarget = null;
             this.documentProcessingCommandControl.Size = new System.Drawing.Size(681, 534);
             this.documentProcessingCommandControl.TabIndex = 0;
-            this.documentProcessingCommandControl.ViewType = DemosCommonCode.Imaging.ProcessingResultTreeType.Detailed;
+            this.documentProcessingCommandControl.ViewType = ProcessingResultTreeType.Detailed;
             // 
             // DocumentProcessingCommandForm
             // 
@@ -142,7 +144,7 @@ namespace DemosCommonCode.Pdf
 
         #endregion
 
-        private DemosCommonCode.Imaging.DocumentProcessingCommandControl documentProcessingCommandControl;
+        private CommonCode.Imaging.DocumentProcessingCommandControl documentProcessingCommandControl;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem resultToolStripMenuItem;

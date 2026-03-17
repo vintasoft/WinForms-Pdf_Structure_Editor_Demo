@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf.BasicTypes;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Provides the control that displays tree of PDF basic objects.

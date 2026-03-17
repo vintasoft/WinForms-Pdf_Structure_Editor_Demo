@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     partial class AttachmentsEditorForm
     {
@@ -88,7 +88,7 @@ namespace DemosCommonCode.Pdf
             this.selectedFileDataFieldsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.itemsPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.attachmentViewer = new DemosCommonCode.Pdf.PdfAttachmentViewer();
+            this.attachmentViewer = new CommonCode.Pdf.PdfAttachmentViewer();
             this.encodeFilesImmediatelyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();

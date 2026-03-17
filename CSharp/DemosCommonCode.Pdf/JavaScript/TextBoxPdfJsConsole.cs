@@ -2,7 +2,7 @@
 
 using Vintasoft.Imaging.Pdf.JavaScriptApi;
 
-namespace DemosCommonCode.Pdf.JavaScript
+namespace CommonCode.Pdf.JavaScript
 {
     /// <summary>
     /// Textbox for PDF JavaScript console.

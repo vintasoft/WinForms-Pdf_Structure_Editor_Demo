@@ -4,7 +4,7 @@ using Vintasoft.Imaging.Processing;
 using Vintasoft.Imaging.Processing.Analyzers;
 
 
-namespace DemosCommonCode
+namespace CommonCode
 {
     /// <summary>
     /// Contains collection of helper-algorithms for

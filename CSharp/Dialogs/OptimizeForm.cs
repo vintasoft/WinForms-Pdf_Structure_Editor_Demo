@@ -5,8 +5,8 @@ using Vintasoft.Imaging.Codecs.Encoders;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Security;
 
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Pdf;
+using CommonCode.Imaging;
+using CommonCode.Pdf;
 
 namespace PdfStructureEditorDemo
 {

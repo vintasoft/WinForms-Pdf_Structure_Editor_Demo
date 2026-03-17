@@ -1,4 +1,4 @@
-namespace DemosCommonCode.Pdf
+﻿namespace CommonCode.Pdf
 {
     partial class PdfSubmitFormActionEditorForm
     {
@@ -38,7 +38,7 @@ namespace DemosCommonCode.Pdf
             this.selectedFieldsRadioButton = new System.Windows.Forms.RadioButton();
             this.selectedFieldsGroupBox = new System.Windows.Forms.GroupBox();
             this.excludeSelectedFieldsCheckBox = new System.Windows.Forms.CheckBox();
-            this.pdfInteractiveFormFieldListEditorControl = new DemosCommonCode.Pdf.PdfInteractiveFormFieldListEditorControl();
+            this.pdfInteractiveFormFieldListEditorControl = new CommonCode.Pdf.PdfInteractiveFormFieldListEditorControl();
             this.selectedFieldsGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 

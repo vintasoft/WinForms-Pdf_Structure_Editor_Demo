@@ -3,10 +3,10 @@ using Vintasoft.Imaging.Pdf.UI;
 using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.UI;
 
-using DemosCommonCode.Pdf.JavaScript;
+using CommonCode.Pdf.JavaScript;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Manager of Application Action Executors.

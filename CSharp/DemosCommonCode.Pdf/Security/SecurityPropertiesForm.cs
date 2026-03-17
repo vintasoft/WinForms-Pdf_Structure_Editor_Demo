@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Security;
 
-namespace DemosCommonCode.Pdf.Security
+namespace CommonCode.Pdf.Security
 {
     /// <summary>
     /// A form that shows the security properties of PDF document.

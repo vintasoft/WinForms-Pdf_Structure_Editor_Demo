@@ -8,11 +8,11 @@ using Vintasoft.Imaging;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
 
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Imaging.Codecs;
+using CommonCode.Imaging;
+using CommonCode.Imaging.Codecs;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A form that allows to display PDF resources and select PDF resource.

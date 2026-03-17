@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Vintasoft.Imaging.Processing;
 
 
-namespace DemosCommonCode.Imaging
+namespace CommonCode.Imaging
 {
     /// <summary>
     /// A control that allows to view the processing commands.

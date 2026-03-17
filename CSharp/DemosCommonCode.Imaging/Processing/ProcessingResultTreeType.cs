@@ -1,4 +1,4 @@
-﻿namespace DemosCommonCode.Imaging
+﻿namespace CommonCode.Imaging
 {
     /// <summary>
     /// Specifies available tree types of processing result.

@@ -16,11 +16,11 @@ using Vintasoft.Imaging.Pdf.Tree.Fonts;
 using Vintasoft.Imaging.Processing;
 using Vintasoft.Imaging.UI;
 
-using DemosCommonCode;
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Imaging.ColorManagement;
-using DemosCommonCode.Pdf;
-using DemosCommonCode.Pdf.Security;
+using CommonCode;
+using CommonCode.Imaging;
+using CommonCode.Imaging.ColorManagement;
+using CommonCode.Pdf;
+using CommonCode.Pdf.Security;
 using Vintasoft.Imaging.Pdf.Processing;
 
 namespace PdfStructureEditorDemo

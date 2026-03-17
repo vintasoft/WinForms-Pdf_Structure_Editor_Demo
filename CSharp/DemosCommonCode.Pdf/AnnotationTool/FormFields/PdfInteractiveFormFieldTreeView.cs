@@ -11,7 +11,7 @@ using Vintasoft.Imaging.Pdf.UI.Annotations;
 using Vintasoft.Imaging.Utils;
 using Vintasoft.Imaging.Pdf.Tree.Annotations;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// A tree view for PDF interactive form.

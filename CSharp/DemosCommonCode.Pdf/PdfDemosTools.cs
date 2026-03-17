@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -15,11 +15,11 @@ using Vintasoft.Imaging.UI.VisualTools;
 using Vintasoft.Imaging.UIActions;
 using Vintasoft.Imaging.Utils;
 
-using DemosCommonCode.Imaging;
-using DemosCommonCode.Pdf.Security;
+using CommonCode.Imaging;
+using CommonCode.Pdf.Security;
 
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Contains common static functions for PDF demos.

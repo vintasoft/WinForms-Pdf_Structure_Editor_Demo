@@ -7,9 +7,9 @@ using Vintasoft.Imaging.Codecs.Encoders;
 using Vintasoft.Imaging.Pdf;
 using Vintasoft.Imaging.Pdf.Tree;
 
-using DemosCommonCode;
-using DemosCommonCode.Imaging.Codecs.Dialogs;
-using DemosCommonCode.Pdf;
+using CommonCode;
+using CommonCode.Imaging.Codecs.Dialogs;
+using CommonCode.Pdf;
 
 
 namespace PdfStructureEditorDemo

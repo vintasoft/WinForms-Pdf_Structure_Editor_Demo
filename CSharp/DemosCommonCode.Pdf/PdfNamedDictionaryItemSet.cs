@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Vintasoft.Imaging.Pdf.Tree;
 
-namespace DemosCommonCode.Pdf
+namespace CommonCode.Pdf
 {
     /// <summary>
     /// Represents a set of name-value pairs.
