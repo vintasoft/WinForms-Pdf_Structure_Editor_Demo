@@ -75,6 +75,15 @@ namespace PdfStructureEditorDemo
         #region Constructors
 
         /// <summary>
+        /// Initializes the <see cref="MainForm"/> class.
+        /// </summary>
+        static MainForm()
+        {
+            Jbig2AssemblyLoader.Load();
+            Jpeg2000AssemblyLoader.Load();
+        }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="MainForm"/> class.
         /// </summary>
         public MainForm()
@@ -85,9 +94,6 @@ namespace PdfStructureEditorDemo
             InitializeComponent();
 
             viewerToolStrip.UseImageViewerImages = false;
-
-            Jbig2AssemblyLoader.Load();
-            Jpeg2000AssemblyLoader.Load();
 
             Filename = null;
             IsNewDocument = false;
