@@ -174,7 +174,7 @@ namespace CommonCode.Imaging
         /// <param name="processingTarget">The target of processing.</param>
         /// <param name="command">The processing command.</param>
         /// <param name="showDialog">Indicates whether need show processing dialog.</param>
-        public static void ExecuteProcessing(
+        public static DialogResult ExecuteProcessing(
             TTarget processingTarget,
             IProcessingCommand<TTarget> command,
             bool showDialog)
@@ -184,12 +184,13 @@ namespace CommonCode.Imaging
                 using (ProcessingCommandForm<TTarget> dialog =
                     new ProcessingCommandForm<TTarget>(processingTarget, command))
                 {
-                    dialog.ShowDialog();
+                    return dialog.ShowDialog();
                 }
             }
             else
             {
                 ProcessingDemosTools.ExecuteProcessing(processingTarget, command);
+                return DialogResult.OK;
             }
         }        
 
